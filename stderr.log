@@ -1,188 +1,511 @@
-2021-05-17 04:05:11,365 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ConsoleLogger
-2021-05-17 04:05:11,443 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraDrive
-2021-05-17 04:05:11,521 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.__init__ [92]: Found CuraEngine at: C:\Program Files\Ultimaker Cura 4.8.0\CuraEngine.exe
-2021-05-17 04:05:11,521 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraEngineBackend
-2021-05-17 04:05:11,568 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraProfileReader
-2021-05-17 04:05:11,568 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [188]: Socket state changed to Listening
-2021-05-17 04:05:11,615 - INFO - [MainThread] UM.Backend.Backend.startEngine [90]: Started engine process: C:\Program Files\Ultimaker Cura 4.8.0\CuraEngine.exe
-2021-05-17 04:05:11,615 - DEBUG - [MainThread] UM.Backend.Backend._backendLog [110]: [Backend] Calling engine with: ['C:\\Program Files\\Ultimaker Cura 4.8.0\\CuraEngine.exe', 'connect', '127.0.0.1:49674', '']
-2021-05-17 04:05:11,661 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CuraProfileWriter
-2021-05-17 04:05:11,693 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin OBJReader
-2021-05-17 04:05:11,708 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
-2021-05-17 04:05:11,708 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] Cura_SteamEngine version 4.8.0
-2021-05-17 04:05:11,708 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] Copyright (C) 2020 Ultimaker
-2021-05-17 04:05:11,708 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
-2021-05-17 04:05:11,708 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] This program is free software: you can redistribute it and/or modify
-2021-05-17 04:05:11,708 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] it under the terms of the GNU Affero General Public License as published by
-2021-05-17 04:05:11,708 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] the Free Software Foundation, either version 3 of the License, or
-2021-05-17 04:05:11,708 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] (at your option) any later version.
-2021-05-17 04:05:11,708 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
-2021-05-17 04:05:11,708 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] This program is distributed in the hope that it will be useful,
-2021-05-17 04:05:11,724 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] but WITHOUT ANY WARRANTY; without even the implied warranty of
-2021-05-17 04:05:11,724 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-2021-05-17 04:05:11,724 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] GNU Affero General Public License for more details.
-2021-05-17 04:05:11,724 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
-2021-05-17 04:05:11,724 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] You should have received a copy of the GNU Affero General Public License
-2021-05-17 04:05:11,724 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] along with this program.  If not, see <http://www.gnu.org/licenses/>.
-2021-05-17 04:05:11,755 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin OBJWriter
-2021-05-17 04:05:11,755 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [192]: Socket state changed to Connected
-2021-05-17 04:05:11,771 - DEBUG - [MainThread] UM.Backend.Backend._onSocketStateChanged [181]: Backend connected on port 49674
-2021-05-17 04:05:11,811 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin STLReader
-2021-05-17 04:05:11,845 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin STLWriter
-2021-05-17 04:05:11,884 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FileLogger
-2021-05-17 04:05:11,954 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdateChecker
-2021-05-17 04:05:11,986 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin FirmwareUpdater
-2021-05-17 04:05:12,017 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzReader
-2021-05-17 04:05:12,048 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeGzWriter
-2021-05-17 04:05:12,095 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeProfileReader
-2021-05-17 04:05:12,158 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeReader
-2021-05-17 04:05:12,204 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin GCodeWriter
-2021-05-17 04:05:12,251 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ImageReader
-2021-05-17 04:05:12,283 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LegacyProfileReader
-2021-05-17 04:05:12,314 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalContainerProvider
-2021-05-17 04:05:12,361 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin LocalFileOutputDevice
-2021-05-17 04:05:12,408 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MachineSettingsAction
-2021-05-17 04:05:12,439 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ModelChecker
-2021-05-17 04:05:12,470 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MonitorStage
-2021-05-17 04:05:12,517 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PerObjectSettingsTool
-2021-05-17 04:05:12,564 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PostProcessingPlugin
-2021-05-17 04:05:12,595 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PrepareStage
-2021-05-17 04:05:12,626 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin PreviewStage
-2021-05-17 04:05:12,689 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RemovableDriveOutputDevice
-2021-05-17 04:05:12,736 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SentryLogger
-2021-05-17 04:05:12,814 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimulationView
-2021-05-17 04:05:12,845 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SliceInfoPlugin
-2021-05-17 04:05:12,876 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SolidView
-2021-05-17 04:05:12,923 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SupportEraser
-2021-05-17 04:05:13,095 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
-2021-05-17 04:05:13,095 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
-2021-05-17 04:05:13,111 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
-2021-05-17 04:05:13,111 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
-2021-05-17 04:05:13,111 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
-2021-05-17 04:05:13,111 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
-2021-05-17 04:05:13,111 - WARNING - [MainThread] UM.Logger.logException [106]: Exception: Failed to load packages for Marketplace
-2021-05-17 04:05:13,111 - WARNING - [MainThread] UM.Logger.logException [110]: NoneType: None
-2021-05-17 04:05:13,111 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin Toolbox
-2021-05-17 04:05:13,158 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin CameraTool
-2021-05-17 04:05:13,204 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin MirrorTool
-2021-05-17 04:05:13,251 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin RotateTool
-2021-05-17 04:05:13,298 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin ScaleTool
-2021-05-17 04:05:13,329 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SelectionTool
-2021-05-17 04:05:13,376 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TranslateTool
-2021-05-17 04:05:13,408 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin TrimeshReader
-2021-05-17 04:05:13,454 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPReader
-2021-05-17 04:05:13,486 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UFPWriter
-2021-05-17 04:05:13,533 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UltimakerMachineActions
-2021-05-17 04:05:14,158 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UM3NetworkPrinting
-2021-05-17 04:05:14,204 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
-2021-05-17 04:05:14,204 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin UpdateChecker
-2021-05-17 04:05:14,579 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin USBPrinting
-2021-05-17 04:05:14,798 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade21to22
-2021-05-17 04:05:14,892 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade22to24
-2021-05-17 04:05:14,970 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade25to26
-2021-05-17 04:05:15,064 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade26to27
-2021-05-17 04:05:15,158 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade27to30
-2021-05-17 04:05:15,220 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade30to31
-2021-05-17 04:05:15,251 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade32to33
-2021-05-17 04:05:15,283 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade33to34
-2021-05-17 04:05:15,329 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade34to35
-2021-05-17 04:05:15,345 - INFO - [Thread-1] UpdateChecker.UpdateCheckerJob.run [85]: Found a new version of the software. Spawning message
-2021-05-17 04:05:15,361 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade35to40
-2021-05-17 04:05:15,392 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade40to41
-2021-05-17 04:05:15,439 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade41to42
-2021-05-17 04:05:15,470 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade42to43
-2021-05-17 04:05:15,501 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade43to44
-2021-05-17 04:05:15,533 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade44to45
-2021-05-17 04:05:15,579 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade45to46
-2021-05-17 04:05:15,611 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade460to462
-2021-05-17 04:05:15,658 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade462to47
-2021-05-17 04:05:15,704 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin VersionUpgrade47to48
-2021-05-17 04:05:15,736 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin SimpleView
-2021-05-17 04:05:15,783 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin X3DReader
-2021-05-17 04:05:15,845 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XmlMaterialProfile
-2021-05-17 04:05:15,876 - INFO - [MainThread] UM.Logger.info [122]: Loaded plugin XRayView
-2021-05-17 04:05:15,876 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [432]: Loading all plugins took 5.355560064315796 seconds
-2021-05-17 04:05:15,892 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [163]: Looking for old configuration files to upgrade.
-2021-05-17 04:05:16,428 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [175]: Checking and performing updates took 0.535736083984375
-2021-05-17 04:05:46,460 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [361]: Loading metadata into container registry took 29.909229516983032 seconds
-2021-05-17 04:05:46,460 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [142]: Select build plate: 0
-2021-05-17 04:05:46,476 - INFO - [MainThread] cura.CuraApplication.run [782]: Initializing machine error checker
-2021-05-17 04:05:46,663 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [74]: Default machine actions added for machine definition [mp_mini_delta]
-2021-05-17 04:05:46,757 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[mp_mini_delta_extruder_0 #2] added to [MP Mini Delta] at position [0]
-2021-05-17 04:05:46,757 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [79]: No machine with name MP Mini Delta in list of firmware to check.
-2021-05-17 04:05:46,913 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [120]: Adding container tree for mp_mini_delta took 0.1562485694885254 seconds.
-2021-05-17 04:05:46,944 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: ChangeAtZ
-2021-05-17 04:05:46,960 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: ColorMix
-2021-05-17 04:05:46,960 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: DisplayFilenameAndLayerOnLCD
-2021-05-17 04:05:46,976 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: DisplayProgressOnLCD
-2021-05-17 04:05:46,991 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: FilamentChange
-2021-05-17 04:05:47,007 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: InsertAtLayerChange
-2021-05-17 04:05:47,007 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: PauseAtHeight
-2021-05-17 04:05:47,022 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: RetractContinue
-2021-05-17 04:05:47,038 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: SearchAndReplace
-2021-05-17 04:05:47,054 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: Stretch
-2021-05-17 04:05:47,054 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: TimeLapse
-2021-05-17 04:05:47,069 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [202]: Begin loading of script: UsePreviousProbeMeasurements
-2021-05-17 04:05:47,116 - INFO - [MainThread] cura.CuraApplication.run [787]: Initializing machine manager
-2021-05-17 04:05:47,132 - INFO - [MainThread] cura.CuraApplication.run [792]: Initializing container manager
-C:\Program Files\Ultimaker Cura 4.8.0\plugins\3MFReader\ThreeMFReader.py:122: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
+trimesh\util.py:2064: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3, and in 3.9 it will stop working
+networkx\readwrite\graphml.py:346: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+networkx\readwrite\gexf.py:220: DeprecationWarning: `np.int` is a deprecated alias for the builtin `int`. To silence this warning, use `int` by itself. Doing this will not modify any behavior and is safe. When replacing `np.int`, you may wish to use e.g. `np.int64` or `np.int32` to specify the precision. If you wish to review your current use, check the release note link for additional information.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+trimesh\voxel\runlength.py:205: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+2021-06-06 13:34:31,816 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin ConsoleLogger
+2021-06-06 13:34:31,829 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CuraDrive
+2021-06-06 13:34:31,849 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.__init__ [96]: Found CuraEngine at: C:\Program Files\Ultimaker Cura 4.9.1\CuraEngine.exe
+2021-06-06 13:34:31,852 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CuraEngineBackend
+2021-06-06 13:34:31,859 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CuraProfileReader
+2021-06-06 13:34:31,860 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [188]: Socket state changed to Listening
+2021-06-06 13:34:31,873 - INFO - [MainThread] UM.Backend.Backend.startEngine [90]: Started engine process: C:\Program Files\Ultimaker Cura 4.9.1\CuraEngine.exe
+2021-06-06 13:34:31,874 - DEBUG - [MainThread] UM.Backend.Backend._backendLog [110]: [Backend] Calling engine with: ['C:\\Program Files\\Ultimaker Cura 4.9.1\\CuraEngine.exe', 'connect', '127.0.0.1:49674', '']
+2021-06-06 13:34:31,881 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CuraProfileWriter
+2021-06-06 13:34:31,927 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin DigitalLibrary
+2021-06-06 13:34:31,934 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin OBJReader
+2021-06-06 13:34:31,939 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin OBJWriter
+2021-06-06 13:34:31,952 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin STLReader
+2021-06-06 13:34:31,958 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin STLWriter
+2021-06-06 13:34:31,966 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin FileLogger
+2021-06-06 13:34:31,975 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
+2021-06-06 13:34:31,977 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] Cura_SteamEngine version 4.9.1
+2021-06-06 13:34:31,979 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] Copyright (C) 2020 Ultimaker
+2021-06-06 13:34:31,980 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
+2021-06-06 13:34:31,982 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] This program is free software: you can redistribute it and/or modify
+2021-06-06 13:34:31,983 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] it under the terms of the GNU Affero General Public License as published by
+2021-06-06 13:34:31,985 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] the Free Software Foundation, either version 3 of the License, or
+2021-06-06 13:34:31,986 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] (at your option) any later version.
+2021-06-06 13:34:31,988 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin FirmwareUpdateChecker
+2021-06-06 13:34:31,990 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
+2021-06-06 13:34:31,991 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [192]: Socket state changed to Connected
+2021-06-06 13:34:31,992 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] This program is distributed in the hope that it will be useful,
+2021-06-06 13:34:31,994 - DEBUG - [MainThread] UM.Backend.Backend._onSocketStateChanged [181]: Backend connected on port 49674
+2021-06-06 13:34:31,995 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] but WITHOUT ANY WARRANTY; without even the implied warranty of
+2021-06-06 13:34:31,997 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+2021-06-06 13:34:31,999 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] GNU Affero General Public License for more details.
+2021-06-06 13:34:32,001 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] 
+2021-06-06 13:34:32,002 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] You should have received a copy of the GNU Affero General Public License
+2021-06-06 13:34:32,005 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] along with this program.  If not, see <http://www.gnu.org/licenses/>.
+2021-06-06 13:34:32,010 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin FirmwareUpdater
+2021-06-06 13:34:32,016 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin GCodeGzReader
+2021-06-06 13:34:32,021 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin GCodeGzWriter
+2021-06-06 13:34:32,027 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin GCodeProfileReader
+2021-06-06 13:34:32,039 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin GCodeReader
+2021-06-06 13:34:32,045 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin GCodeWriter
+2021-06-06 13:34:32,054 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin ImageReader
+2021-06-06 13:34:32,059 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin LegacyProfileReader
+2021-06-06 13:34:32,065 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin LocalContainerProvider
+2021-06-06 13:34:32,073 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin LocalFileOutputDevice
+2021-06-06 13:34:32,079 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin MachineSettingsAction
+2021-06-06 13:34:32,085 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin ModelChecker
+2021-06-06 13:34:32,091 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin MonitorStage
+2021-06-06 13:34:32,098 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin PerObjectSettingsTool
+2021-06-06 13:34:32,106 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin PostProcessingPlugin
+2021-06-06 13:34:32,111 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin PrepareStage
+2021-06-06 13:34:32,116 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin PreviewStage
+2021-06-06 13:34:32,124 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin RemovableDriveOutputDevice
+2021-06-06 13:34:32,129 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SentryLogger
+2021-06-06 13:34:32,144 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SimulationView
+2021-06-06 13:34:32,152 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SliceInfoPlugin
+2021-06-06 13:34:32,159 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SolidView
+2021-06-06 13:34:32,166 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SupportEraser
+2021-06-06 13:34:32,191 - WARNING - [MainThread] UM.Logger.logException [112]: Exception: Failed to load packages for Marketplace
+2021-06-06 13:34:32,192 - WARNING - [MainThread] UM.Logger.logException [116]: NoneType: None
+2021-06-06 13:34:32,194 - WARNING - [MainThread] UM.Logger.logException [112]: Exception: Failed to load packages for Marketplace
+2021-06-06 13:34:32,195 - WARNING - [MainThread] UM.Logger.logException [116]: NoneType: None
+2021-06-06 13:34:32,196 - WARNING - [MainThread] UM.Logger.logException [112]: Exception: Failed to load packages for Marketplace
+2021-06-06 13:34:32,198 - WARNING - [MainThread] UM.Logger.logException [116]: NoneType: None
+2021-06-06 13:34:32,200 - WARNING - [MainThread] UM.Logger.logException [112]: Exception: Failed to load packages for Marketplace
+2021-06-06 13:34:32,201 - WARNING - [MainThread] UM.Logger.logException [116]: NoneType: None
+2021-06-06 13:34:32,206 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin Toolbox
+2021-06-06 13:34:32,213 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin CameraTool
+2021-06-06 13:34:32,221 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin MirrorTool
+2021-06-06 13:34:32,231 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin RotateTool
+2021-06-06 13:34:32,241 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin ScaleTool
+2021-06-06 13:34:32,246 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SelectionTool
+2021-06-06 13:34:32,255 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin TranslateTool
+2021-06-06 13:34:32,260 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin TrimeshReader
+2021-06-06 13:34:32,272 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin UFPReader
+2021-06-06 13:34:32,278 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin UFPWriter
+2021-06-06 13:34:32,285 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin UltimakerMachineActions
+C:\Program Files\Ultimaker Cura 4.9.1\plugins\UM3NetworkPrinting\src\ExportFileJob.py:31: DeprecationWarning: invalid escape sequence \w
+  job_name = re.sub("[^\w\-. ()]", "-", job_name)
+2021-06-06 13:34:32,359 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin UM3NetworkPrinting
+2021-06-06 13:34:32,368 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin UpdateChecker
+2021-06-06 13:34:32,369 - INFO - [JobQueWorker [0]] UpdateChecker.UpdateCheckerJob.run [40]: Checking for new version of cura
+C:\Program Files\Ultimaker Cura 4.9.1\plugins\USBPrinting\USBPrinterOutputDevice.py:277: DeprecationWarning: invalid escape sequence \d
+  if re.search(b"[B|T\d*]: ?\d+\.?\d*", line):  # Temperature message. 'T:' for extruder and 'B:' for bed
+2021-06-06 13:34:32,393 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin USBPrinting
+2021-06-06 13:34:32,404 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade21to22
+2021-06-06 13:34:32,409 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade22to24
+2021-06-06 13:34:32,416 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade25to26
+2021-06-06 13:34:32,421 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade26to27
+2021-06-06 13:34:32,427 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade27to30
+2021-06-06 13:34:32,432 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade30to31
+2021-06-06 13:34:32,438 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade32to33
+2021-06-06 13:34:32,442 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade33to34
+2021-06-06 13:34:32,448 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade34to35
+2021-06-06 13:34:32,455 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade35to40
+2021-06-06 13:34:32,460 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade40to41
+2021-06-06 13:34:32,467 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade41to42
+2021-06-06 13:34:32,473 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade42to43
+2021-06-06 13:34:32,478 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade43to44
+2021-06-06 13:34:32,484 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade44to45
+2021-06-06 13:34:32,490 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade45to46
+2021-06-06 13:34:32,497 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade460to462
+2021-06-06 13:34:32,503 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade462to47
+2021-06-06 13:34:32,508 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade47to48
+2021-06-06 13:34:32,513 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin VersionUpgrade48to49
+2021-06-06 13:34:32,520 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SimpleView
+2021-06-06 13:34:32,531 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin X3DReader
+2021-06-06 13:34:32,544 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin XmlMaterialProfile
+2021-06-06 13:34:32,550 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin XRayView
+2021-06-06 13:34:32,551 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [395]: Loading all plugins took 1.193237543106079 seconds
+2021-06-06 13:34:32,560 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [163]: Looking for old configuration files to upgrade.
+2021-06-06 13:34:32,641 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [175]: Checking and performing updates took 0.08099532127380371
+2021-06-06 13:34:32,656 - INFO - [MainThread] UM.Logger.info [128]: Completed loading preferences.
+2021-06-06 13:34:32,667 - INFO - [MainThread] UM.Logger.info [128]: Created system tray icon.
+2021-06-06 13:34:33,629 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [361]: Loading metadata into container registry took 0.9545903205871582 seconds
+2021-06-06 13:34:33,638 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [142]: Select build plate: 0
+2021-06-06 13:34:33,640 - INFO - [MainThread] cura.CuraApplication.run [794]: Initializing machine error checker
+2021-06-06 13:34:33,813 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition mp_mini_delta failed to pickle.
+2021-06-06 13:34:33,828 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [74]: Default machine actions added for machine definition [mp_mini_delta]
+2021-06-06 13:34:33,966 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition fdmprinter failed to pickle.
+2021-06-06 13:34:34,003 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[mp_mini_delta_extruder_0 #2] added to [MP Mini Delta] at position [0]
+2021-06-06 13:34:34,004 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [79]: No machine with name MP Mini Delta in list of firmware to check.
+2021-06-06 13:34:34,133 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [120]: Adding container tree for mp_mini_delta took 0.1241912841796875 seconds.
+C:\Program Files\Ultimaker Cura 4.9.1\plugins\PostProcessingPlugin\Script.py:125: DeprecationWarning: invalid escape sequence \.
+  m = re.search('^-?[0-9]+\.?[0-9]*', sub_part)
+2021-06-06 13:34:34,140 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: ChangeAtZ
+2021-06-06 13:34:34,141 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: ColorMix
+2021-06-06 13:34:34,142 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: CreateThumbnail
+2021-06-06 13:34:34,143 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2021-06-06 13:34:34,144 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: DisplayProgressOnLCD
+2021-06-06 13:34:34,145 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: FilamentChange
+2021-06-06 13:34:34,146 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: InsertAtLayerChange
+2021-06-06 13:34:34,148 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: PauseAtHeight
+2021-06-06 13:34:34,150 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: RetractContinue
+2021-06-06 13:34:34,150 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: SearchAndReplace
+2021-06-06 13:34:34,153 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: Stretch
+2021-06-06 13:34:34,155 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: TimeLapse
+2021-06-06 13:34:34,155 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: UsePreviousProbeMeasurements
+2021-06-06 13:34:34,156 - WARNING - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadAllScripts [155]: Unable to create a folder for scripts: C:\Program Files\Ultimaker Cura 4.9.1\resources\scripts
+2021-06-06 13:34:34,188 - INFO - [MainThread] cura.CuraApplication.run [799]: Initializing machine manager
+2021-06-06 13:34:34,190 - INFO - [MainThread] cura.CuraApplication.run [804]: Initializing container manager
+2021-06-06 13:34:34,253 - DEBUG - [MainThread] cura.OAuth2.AuthorizationHelpers.parseJWT [114]: Checking the access token for [https://account.ultimaker.com/check-token]
+C:\Program Files\Ultimaker Cura 4.9.1\plugins\3MFReader\ThreeMFReader.py:126: DeprecationWarning: The binary mode of fromstring is deprecated, as it behaves surprisingly on unicode inputs. Use frombuffer instead
   data = numpy.fromstring(savitar_node.getMeshData().getFlatVerticesAsBytes(), dtype=numpy.float32)
-2021-05-17 04:05:47,147 - DEBUG - [Thread-2] UM.Mesh.MeshData.calculateNormalsFromVertices [556]: Calculating normals took 0.0 seconds
-2021-05-17 04:05:47,163 - DEBUG - [Thread-2] UM.Mesh.MeshData.approximateConvexHull [506]: approximateConvexHull(target_count=1024) Calculating 3D convex hull took 0.01562666893005371 seconds. 380 input vertices. 380 output vertices.
-2021-05-17 04:05:47,210 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
-2021-05-17 04:05:47,257 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: C:\Program Files\Ultimaker Cura 4.8.0\resources\themes\cura-light\theme.json
-2021-05-17 04:05:49,038 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [246]: Loaded theme C:\Program Files\Ultimaker Cura 4.8.0\resources\themes\cura-light
-2021-05-17 04:05:49,694 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
-2021-05-17 04:05:52,367 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [340]: Creating post processing plugin view.
-2021-05-17 04:05:52,726 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [350]: Post processing view created.
-2021-05-17 04:05:52,992 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
-2021-05-17 04:05:53,008 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
-2021-05-17 04:05:53,008 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
-2021-05-17 04:05:54,280 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
-2021-05-17 04:05:54,466 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
-2021-05-17 04:05:54,706 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
-2021-05-17 04:05:54,779 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///C:/Program Files/Ultimaker Cura 4.8.0/resources/qml/Menus/ConfigurationMenu/CustomConfiguration.qml:234: TypeError: Cannot read property 'activeStack' of undefined
-2021-05-17 04:05:54,897 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
-2021-05-17 04:05:54,911 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [117]: Creating model checker view.
-2021-05-17 04:05:54,950 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [126]: Model checker view created.
-2021-05-17 04:05:54,951 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [76]: Creating dialog [MoreInfoWindow.qml]
-2021-05-17 04:05:55,120 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [544]: Requesting [updates] metadata from server.
-2021-05-17 04:05:55,124 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [124]: No auth data to retrieve the access_token from
-2021-05-17 04:05:55,126 - WARNING - [MainThread] UM.Logger.warning [128]: Cannot add authorization to Cloud Api request
-2021-05-17 04:05:55,133 - DEBUG - [MainThread] cura.CuraApplication.run [833]: Booting Cura took 45.828906774520874 seconds
-2021-05-17 04:05:55,135 - DEBUG - [Thread-3] cura.Machines.ContainerTree.run [174]: Started background loading of MachineNodes
-2021-05-17 04:05:56,221 - DEBUG - [Thread-3] cura.Machines.ContainerTree.run [185]: All MachineNode loading completed
-2021-05-17 04:05:56,237 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [581]: Calculating normals took 0.0 seconds
-2021-05-17 04:05:56,253 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
-2021-05-17 04:05:56,284 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
-2021-05-17 04:05:56,463 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
-2021-05-17 04:05:56,467 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
-2021-05-17 04:05:56,488 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [581]: Calculating normals took 0.0029990673065185547 seconds
-2021-05-17 04:05:57,231 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [210]: Support for Vertex Array Objects: True
-2021-05-17 04:05:57,255 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
-2021-05-17 04:05:57,257 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.1.14760 Core Profile Forward-Compatible Context 20.45.37.01 27.20.14537.1001
-2021-05-17 04:05:57,259 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   ATI Technologies Inc.
-2021-05-17 04:05:57,261 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Radeon RX 580 Series
-2021-05-17 04:05:57,263 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.60.0
-2021-05-17 04:05:57,266 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\default.shader]...
-2021-05-17 04:05:57,280 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\selection.shader]...
-2021-05-17 04:05:57,293 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\select_face.shader]...
-2021-05-17 04:05:57,307 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\default.shader]...
-2021-05-17 04:05:57,309 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\composite.shader]...
-2021-05-17 04:05:57,324 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\overhang.shader]...
-2021-05-17 04:05:57,338 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\striped.shader]...
-2021-05-17 04:05:57,352 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\transparent_object.shader]...
-2021-05-17 04:05:57,365 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\striped.shader]...
-2021-05-17 04:05:57,368 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\default.shader]...
-2021-05-17 04:05:57,371 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\grid.shader]...
-2021-05-17 04:05:57,384 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.8.0\resources\shaders\platform.shader]...
-2021-05-17 04:06:00,328 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 10.6s
-2021-05-17 04:06:02,986 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///C:/Program Files/Ultimaker Cura 4.8.0/resources/qml/RoundedRectangle.qml:68: TypeError: Cannot read property of null
-2021-05-17 04:06:14,096 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
-2021-05-17 04:06:33,259 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
-2021-05-17 04:06:52,454 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
-2021-05-17 04:07:05,471 - WARNING - [MainThread] UM.PluginRegistry._populateMetaData [739]: Could not find plugin global_stack
-2021-05-17 04:07:05,473 - WARNING - [MainThread] UM.PluginRegistry._populateMetaData [739]: Could not find plugin extruder_stack
-2021-05-17 04:07:05,481 - WARNING - [MainThread] cura.Settings.ContainerManager.getContainerMetaDataEntry [60]: Could not get metadata of container Unknown because it was not found.
-2021-05-17 04:07:05,845 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///C:/Program Files/Ultimaker Cura 4.8.0/resources/qml/Preferences/Materials/MaterialsPage.qml:272:13: QML MaterialsList: Binding loop detected for property "height"
-2021-05-17 04:07:05,848 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [406]: file:///C:/Program Files/Ultimaker Cura 4.8.0/resources/qml/Preferences/Materials/MaterialsList.qml:136:5: QML Column: Binding loop detected for property "height"
+2021-06-06 13:34:34,259 - DEBUG - [JobQueWorker [1]] UM.Mesh.MeshData.calculateNormalsFromVertices [556]: Calculating normals took 0.0010004043579101562 seconds
+2021-06-06 13:34:34,273 - DEBUG - [JobQueWorker [1]] UM.Mesh.MeshData.approximateConvexHull [505]: approximateConvexHull(target_count=1024) Calculating 3D convex hull took 0.012203216552734375 seconds. 380 input vertices. 380 output vertices.
+2021-06-06 13:34:34,798 - WARNING - [MainThread] cura.OAuth2.AuthorizationHelpers.parseJWT [123]: Could not retrieve token data from auth server: {"errors": [{"id": "2599d7e8-25c3-4f6f-95e4-68e5ed651215", "code": "tokenExpired", "http_status": "403", "title": "The given token has expired.", "meta": {"error_type": "AuthError", "url": "https://account.ultimaker.com/check-token"}}]}
+2021-06-06 13:34:34,801 - DEBUG - [MainThread] cura.OAuth2.AuthorizationHelpers.getAccessTokenUsingRefreshToken [61]: Refreshing the access token for [https://account.ultimaker.com]
+2021-06-06 13:34:35,344 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._storeAuthData [250]: Attempting to store the auth data for [https://account.ultimaker.com]
+2021-06-06 13:34:35,346 - DEBUG - [MainThread] cura.OAuth2.AuthorizationHelpers.parseJWT [114]: Checking the access token for [https://account.ultimaker.com/check-token]
+2021-06-06 13:34:35,847 - DEBUG - [MainThread] cura.OAuth2.AuthorizationHelpers.parseJWT [114]: Checking the access token for [https://account.ultimaker.com/check-token]
+2021-06-06 13:34:36,355 - WARNING - [MainThread] UM.Logger.warning [134]: Starting a new sync while previous sync was not completed
+{'CloudOutputDeviceManager': 0}
+2021-06-06 13:34:36,377 - WARNING - [MainThread] UM.OutputDevice.OutputDeviceManager.removeOutputDevice [235]: Could not find output device with id digital_factory to remove
+2021-06-06 13:34:36,394 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2021-06-06 13:34:36,415 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [158]: Loading theme file: C:\Program Files\Ultimaker Cura 4.9.1\resources\themes\cura-light\theme.json
+2021-06-06 13:34:36,598 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [246]: Loaded theme C:\Program Files\Ultimaker Cura 4.9.1\resources\themes\cura-light
+2021-06-06 13:34:36,603 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2021-06-06 13:34:36,961 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [342]: Creating post processing plugin view.
+2021-06-06 13:34:37,080 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [352]: Post processing view created.
+2021-06-06 13:34:37,174 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [411]: file:///C:/Program Files/Ultimaker Cura 4.9.1/resources/qml/PrintSetupSelector/Custom/MenuButton.qml:42:18: QML Label: Cannot anchor to an item that isn't a parent or sibling.
+2021-06-06 13:34:37,335 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [411]: file:///C:/Program Files/Ultimaker Cura 4.9.1/resources/qml/Account/UserOperations.qml:17:5: QML QQuickItem: Binding loop detected for property "height"
+2021-06-06 13:34:37,337 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [411]: file:///C:/Program Files/Ultimaker Cura 4.9.1/resources/qml/Account/UserOperations.qml:17:5: QML QQuickItem: Binding loop detected for property "height"
+2021-06-06 13:34:37,361 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2021-06-06 13:34:37,430 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2021-06-06 13:34:37,489 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2021-06-06 13:34:37,600 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2021-06-06 13:34:37,602 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [117]: Creating model checker view.
+2021-06-06 13:34:37,606 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [126]: Model checker view created.
+2021-06-06 13:34:37,607 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [76]: Creating dialog [MoreInfoWindow.qml]
+2021-06-06 13:34:37,652 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [542]: Requesting [updates] metadata from server.
+2021-06-06 13:34:37,661 - DEBUG - [MainThread] cura.CuraApplication.run [848]: Booting Cura took 6.9956958293914795 seconds
+2021-06-06 13:34:37,663 - DEBUG - [JobQueWorker [2]] cura.Machines.ContainerTree.run [174]: Started background loading of MachineNodes
+2021-06-06 13:34:37,683 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [581]: Calculating normals took 0.0030040740966796875 seconds
+2021-06-06 13:34:37,705 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2021-06-06 13:34:37,757 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2021-06-06 13:34:37,862 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:37,864 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:37,866 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:37,867 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:37,869 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:37,880 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2021-06-06 13:34:37,884 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2021-06-06 13:34:37,903 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [581]: Calculating normals took 0.002968311309814453 seconds
+2021-06-06 13:34:38,172 - DEBUG - [JobQueWorker [2]] cura.Machines.ContainerTree.run [185]: All MachineNode loading completed
+2021-06-06 13:34:38,564 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [210]: Support for Vertex Array Objects: True
+2021-06-06 13:34:38,569 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2021-06-06 13:34:38,571 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.1.14760 Core Profile Forward-Compatible Context 20.45.37.01 27.20.14537.1001
+2021-06-06 13:34:38,573 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   ATI Technologies Inc.
+2021-06-06 13:34:38,574 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: Radeon RX 580 Series
+2021-06-06 13:34:38,576 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.60.0
+2021-06-06 13:34:38,577 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\default.shader]...
+2021-06-06 13:34:38,580 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\selection.shader]...
+2021-06-06 13:34:38,583 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\select_face.shader]...
+2021-06-06 13:34:38,586 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\default.shader]...
+2021-06-06 13:34:38,588 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\composite.shader]...
+2021-06-06 13:34:38,592 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\overhang.shader]...
+2021-06-06 13:34:38,595 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\striped.shader]...
+2021-06-06 13:34:38,598 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\transparent_object.shader]...
+2021-06-06 13:34:38,601 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\striped.shader]...
+2021-06-06 13:34:38,604 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\default.shader]...
+2021-06-06 13:34:38,606 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\grid.shader]...
+2021-06-06 13:34:38,609 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\platform.shader]...
+2021-06-06 13:34:38,992 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:38,994 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:38,996 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:38,997 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:38,999 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,002 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,004 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:39,005 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:39,007 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:39,009 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,012 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,013 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:39,014 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:39,017 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:39,018 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,022 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,024 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:39,026 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:39,027 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:39,029 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,033 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,034 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:39,035 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:39,038 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:39,039 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,042 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,044 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:39,045 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:39,047 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:39,048 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,051 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,053 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:39,054 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:39,056 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:39,057 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,066 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,067 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:39,069 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:39,071 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:39,072 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,076 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,077 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:39,079 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:39,080 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:39,082 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,084 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,086 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:39,088 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:39,089 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:39,091 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,094 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:39,095 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:39,097 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:39,099 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:39,100 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:41,336 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:41,339 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:41,342 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:41,345 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:41,348 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:41,733 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:41,735 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:41,737 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:41,737 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:41,737 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:41,737 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 13:34:41,737 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 13:34:41,737 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 13:34:41,737 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 13:34:41,737 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 13:34:41,800 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 5.2s
+2021-06-06 13:34:49,751 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2021-06-06 13:43:57,368 - DEBUG - [MainThread] cura.OAuth2.AuthorizationHelpers.getAccessTokenUsingRefreshToken [61]: Refreshing the access token for [https://account.ultimaker.com]
+2021-06-06 13:43:57,971 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._storeAuthData [250]: Attempting to store the auth data for [https://account.ultimaker.com]
+2021-06-06 13:44:07,991 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2021-06-06 13:45:29,037 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2021-06-06 13:53:12,935 - DEBUG - [MainThread] cura.OAuth2.AuthorizationHelpers.getAccessTokenUsingRefreshToken [61]: Refreshing the access token for [https://account.ultimaker.com]
+2021-06-06 13:53:13,501 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._storeAuthData [250]: Attempting to store the auth data for [https://account.ultimaker.com]
+2021-06-06 13:53:23,514 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2021-06-06 13:56:33,632 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestTimeout [302]: Request [<UM.TaskManagement.HttpRequestManager.HttpRequestManager object at 0x000001370217FF70>] timeout.
+2021-06-06 13:56:33,638 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestError [376]: request[740930e6][get][PyQt5.QtCore.QUrl('https://api.ultimaker.com/cura-packages/v1/user/packages')][timeout=10][no-data] got an QNetworkReplyError Operation canceled. The server returned: b''
+2021-06-06 13:56:33,639 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [415]: request[740930e6][get][PyQt5.QtCore.QUrl('https://api.ultimaker.com/cura-packages/v1/user/packages')][timeout=10][no-data] was aborted, do nothing
+2021-06-06 13:56:33,640 - WARNING - [MainThread] Toolbox.src.CloudSync.CloudPackageChecker._onUserPackagesRequestFinished [74]: Requesting user packages failed, response code None while trying to connect to PyQt5.QtCore.QUrl('https://api.ultimaker.com/cura-packages/v1/user/packages')
+2021-06-06 14:02:45,402 - DEBUG - [MainThread] cura.OAuth2.AuthorizationHelpers.getAccessTokenUsingRefreshToken [61]: Refreshing the access token for [https://account.ultimaker.com]
+2021-06-06 14:02:45,981 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._storeAuthData [250]: Attempting to store the auth data for [https://account.ultimaker.com]
+2021-06-06 14:02:55,999 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2021-06-06 14:03:57,676 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestTimeout [302]: Request [<UM.TaskManagement.HttpRequestManager.HttpRequestManager object at 0x000001370217FF70>] timeout.
+2021-06-06 14:03:57,680 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestError [376]: request[82a98f27][get][PyQt5.QtCore.QUrl('https://api.ultimaker.com/cura-packages/v1/user/packages')][timeout=10][no-data] got an QNetworkReplyError Operation canceled. The server returned: b''
+2021-06-06 14:03:57,681 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [415]: request[82a98f27][get][PyQt5.QtCore.QUrl('https://api.ultimaker.com/cura-packages/v1/user/packages')][timeout=10][no-data] was aborted, do nothing
+2021-06-06 14:03:57,682 - WARNING - [MainThread] Toolbox.src.CloudSync.CloudPackageChecker._onUserPackagesRequestFinished [74]: Requesting user packages failed, response code None while trying to connect to PyQt5.QtCore.QUrl('https://api.ultimaker.com/cura-packages/v1/user/packages')
+2021-06-06 14:06:22,713 - INFO - [MainThread] cura.CuraApplication.readLocalFile [1759]: Attempting to read file file:///C:/Users/nicho/Desktop/MPMD_Scale.gcode
+2021-06-06 14:06:22,715 - INFO - [MainThread] UM.Controller.deleteAllNodesWithMeshData [468]: Clearing scene
+2021-06-06 14:06:22,717 - INFO - [MainThread] cura.CuraApplication._removeNodesWithLayerData [2026]: Clearing scene
+2021-06-06 14:06:22,723 - DEBUG - [JobQueWorker [3]] GCodeReader.FlavorParser.processGCodeStream [315]: Preparing to load g-code
+2021-06-06 14:06:22,734 - DEBUG - [JobQueWorker [3]] GCodeReader.FlavorParser.processGCodeStream [355]: Parsing g-code...
+2021-06-06 14:06:23,596 - DEBUG - [JobQueWorker [3]] GCodeReader.FlavorParser.processGCodeStream [485]: Finished parsing g-code.
+2021-06-06 14:06:23,597 - DEBUG - [JobQueWorker [3]] GCodeReader.FlavorParser.processGCodeStream [496]: G-code loading finished.
+2021-06-06 14:06:23,599 - DEBUG - [JobQueWorker [3]] UM.FileHandler.ReadFileJob.run [75]: Loading file took 0.9 seconds
+C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Mesh\ReadMeshJob.py:45: RuntimeWarning: divide by zero encountered in double_scalars
+C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Mesh\ReadMeshJob.py:46: RuntimeWarning: divide by zero encountered in double_scalars
+C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Mesh\ReadMeshJob.py:47: RuntimeWarning: divide by zero encountered in double_scalars
+2021-06-06 14:06:23,771 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2021-06-06 14:06:23,869 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,871 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:23,872 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:23,874 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:23,876 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,879 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,880 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:23,882 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:23,884 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:23,885 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,887 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,889 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:23,891 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:23,892 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:23,894 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,897 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,899 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:23,901 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:23,902 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:23,904 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,948 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,950 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:23,952 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:23,954 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:23,955 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,958 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,960 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:23,962 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:23,963 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:23,965 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,968 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,969 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:23,971 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:23,973 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:23,974 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,977 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,979 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:23,981 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:23,982 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:23,984 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,987 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,989 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:23,990 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:23,992 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:23,993 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,996 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:23,998 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:24,000 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:24,001 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:24,003 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:24,005 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:24,007 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:24,009 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:24,011 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:24,012 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:24,479 - DEBUG - [MainThread] UM.Operations.OperationStack.push [72]: <UM.Operations.AddSceneNodeOperation.AddSceneNodeOperation object at 0x000001371B5D7490>, took 2ms
+2021-06-06 14:06:24,534 - DEBUG - [MainThread] UM.Operations.OperationStack.push [72]: GroupedOp.(#=0), took 0ms
+2021-06-06 14:06:24,544 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2021-06-06 14:06:24,547 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2021-06-06 14:06:24,571 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [581]: Calculating normals took 0.002000093460083008 seconds
+2021-06-06 14:06:24,584 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [411]: file:///C:/Program Files/Ultimaker Cura 4.9.1/qml/UM/MessageStack.qml:75: TypeError: Cannot read property 'horizontalCenter' of null
+2021-06-06 14:06:24,586 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [411]: file:///C:/Program Files/Ultimaker Cura 4.9.1/qml/UM/MessageStack.qml:75: TypeError: Cannot read property 'horizontalCenter' of null
+2021-06-06 14:06:24,611 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PreviewStage
+2021-06-06 14:06:24,614 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [411]: file:///C:/Program Files/Ultimaker Cura 4.9.1/resources/qml/PrintSetupSelector/Custom/QualitiesWithIntentMenu.qml:168:25: QML Binding: Not restoring previous value because restoreMode has not been set.
+This behavior is deprecated.
+You have to import QtQml 2.15 after any QtQuick imports and set
+the restoreMode of the binding to fix this warning.
+In Qt < 6.0 the default is Binding.RestoreBinding.
+In Qt >= 6.0 the default is Binding.RestoreBindingOrValue.
+
+2021-06-06 14:06:24,665 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SimulationView
+2021-06-06 14:06:24,668 - INFO - [MainThread] STLReader.STLReader.load_file [53]: Using NumPy-STL to load STL data.
+2021-06-06 14:06:24,707 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromVertices [556]: Calculating normals took 0.0009987354278564453 seconds
+2021-06-06 14:06:24,707 - DEBUG - [MainThread] STLReader.STLReader._read [105]: Loaded a mesh with 12612 vertices
+2021-06-06 14:06:24,711 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\plugins\SimulationView\simulationview_composite.shader]...
+2021-06-06 14:06:24,929 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SimulationView
+2021-06-06 14:06:24,954 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\color.shader]...
+2021-06-06 14:06:24,969 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\plugins\SimulationView\layers3d.shader]...
+2021-06-06 14:06:24,986 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\plugins\SimulationView\layers3d_shadow.shader]...
+2021-06-06 14:06:25,002 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\toolhandle.shader]...
+2021-06-06 14:06:25,016 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\color.shader]...
+2021-06-06 14:06:25,019 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\striped.shader]...
+C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\View\GL\OpenGL.py:275: DeprecationWarning: tostring() is deprecated. Use tobytes() instead.
+2021-06-06 14:06:25,195 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:25,197 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:25,199 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:25,200 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:25,202 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:25,285 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:25,286 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:25,288 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:25,290 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:25,291 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:25,307 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:25,308 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:25,310 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:25,312 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:25,313 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:25,320 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-06 14:06:25,321 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-06 14:06:25,323 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "C:\Users\ultimaker\AppData\Local\Temp\cura-build-4.9-exe\build\inst\lib\python3.8\site-packages\UM\Settings\SettingFunction.py", line 106, in __call__
+2021-06-06 14:06:25,325 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x137102154c0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-06 14:06:25,326 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-06 14:06:25,381 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 1.6s
+2021-06-06 14:06:25,435 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [411]: file:///C:/Program Files/Ultimaker Cura 4.9.1/resources/qml/PrintSetupSelector/Custom/QualitiesWithIntentMenu.qml:168:25: QML Binding: Not restoring previous value because restoreMode has not been set.
+This behavior is deprecated.
+You have to import QtQml 2.15 after any QtQuick imports and set
+the restoreMode of the binding to fix this warning.
+In Qt < 6.0 the default is Binding.RestoreBinding.
+In Qt >= 6.0 the default is Binding.RestoreBindingOrValue.
+
+2021-06-06 14:06:26,500 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2021-06-06 14:06:26,501 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2021-06-06 14:06:26,522 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2021-06-06 14:06:26,655 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\transparent_object.shader]...
+2021-06-06 14:06:26,658 - WARNING - [MainThread] UM.View.RenderBatch.addItem [165]: Tried to add an item to batch without mesh
+2021-06-06 14:06:29,906 - WARNING - [MainThread] UM.View.RenderBatch.addItem [165]: Tried to add an item to batch without mesh
+2021-06-06 14:06:33,130 - INFO - [MainThread] UM.Controller.deleteAllNodesWithMeshData [468]: Clearing scene
+2021-06-06 14:06:33,133 - INFO - [MainThread] cura.CuraApplication._removeNodesWithLayerData [2026]: Clearing scene
+2021-06-06 14:06:33,135 - DEBUG - [MainThread] UM.Operations.OperationStack.push [72]: GroupedOp.(#=1) <UM.Operations.RemoveSceneNodeOperation.RemoveSceneNodeOperation object at 0x0000013711431B50>, took 0ms
+2021-06-06 14:06:33,209 - WARNING - [MainThread] cura.UI.PrintInformation.setBaseName [366]: Unsupported Mime Type Database file extension 
+2021-06-06 14:06:33,215 - WARNING - [MainThread] UM.View.RenderBatch.addItem [165]: Tried to add an item to batch without mesh
+2021-06-06 14:06:33,381 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2021-06-06 14:06:33,387 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 0.0s
+2021-06-06 14:06:33,414 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [581]: Calculating normals took 0.0049953460693359375 seconds
+2021-06-06 14:06:33,916 - WARNING - [MainThread] cura.UI.PrintInformation.setBaseName [366]: Unsupported Mime Type Database file extension 
+2021-06-06 14:06:36,540 - INFO - [MainThread] cura.CuraApplication.readLocalFile [1759]: Attempting to read file file:///C:/Users/nicho/Desktop/Scale.stl
+2021-06-06 14:06:36,541 - INFO - [JobQueWorker [4]] STLReader.STLReader.load_file [53]: Using NumPy-STL to load STL data.
+2021-06-06 14:06:36,544 - DEBUG - [JobQueWorker [4]] UM.Mesh.MeshData.calculateNormalsFromVertices [556]: Calculating normals took 0.0 seconds
+2021-06-06 14:06:36,545 - DEBUG - [JobQueWorker [4]] STLReader.STLReader._read [105]: Loaded a mesh with 13320 vertices
+2021-06-06 14:06:36,556 - DEBUG - [JobQueWorker [4]] UM.Mesh.MeshData.approximateConvexHull [505]: approximateConvexHull(target_count=1024) Calculating 3D convex hull took 0.008999109268188477 seconds. 680 input vertices. 680 output vertices.
+2021-06-06 14:06:36,561 - DEBUG - [JobQueWorker [4]] UM.FileHandler.ReadFileJob.run [75]: Loading file took 0.0 seconds
+2021-06-06 14:06:36,572 - DEBUG - [JobQueWorker [4]] UM.Mesh.MeshData.approximateConvexHull [505]: approximateConvexHull(target_count=1024) Calculating 3D convex hull took 0.00899958610534668 seconds. 680 input vertices. 680 output vertices.
+2021-06-06 14:06:36,602 - DEBUG - [MainThread] UM.Operations.OperationStack.push [72]: <UM.Operations.AddSceneNodeOperation.AddSceneNodeOperation object at 0x00000137156FB4C0>, took 13ms
+2021-06-06 14:06:36,661 - DEBUG - [MainThread] UM.Operations.OperationStack.push [72]: GroupedOp.(#=2) RotateOp.(node=<CuraSceneNode object: 'Scale.stl'>,rot.=Q<0.0,0.0,0.0,w=4.0>) TranslateOp.(node=<CuraSceneNode object: 'Scale.stl'>,trans.=<0.0,0.0,0.0>), took 1ms
+2021-06-06 14:06:36,666 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [411]: file:///C:/Program Files/Ultimaker Cura 4.9.1/qml/UM/MessageStack.qml:75: TypeError: Cannot read property 'horizontalCenter' of null
+2021-06-06 14:06:36,892 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [581]: Calculating normals took 0.010964155197143555 seconds
+2021-06-06 14:06:37,105 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [581]: Calculating normals took 0.006001710891723633 seconds
+2021-06-06 14:06:38,991 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [411]: file:///C:/Program Files/Ultimaker Cura 4.9.1/qml/UM/MessageStack.qml:75: TypeError: Cannot read property 'horizontalCenter' of null
+2021-06-06 14:06:44,296 - INFO - [MainThread] cura.Settings.IntentManager.selectIntent [155]: Attempting to set intent_category to [default] and quality type to [normal]
+2021-06-06 14:06:44,301 - DEBUG - [MainThread] cura.Settings.MachineManager._updateIntentWithQuality [1284]: Updating intent due to quality change
+2021-06-06 14:06:44,616 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2021-06-06 14:06:45,099 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2021-06-06 14:06:45,104 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2021-06-06 14:06:45,239 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2021-06-06 14:06:45,245 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2021-06-06 14:06:45,259 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [581]: Calculating normals took 0.0029993057250976562 seconds
+2021-06-06 14:06:45,452 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend._createSnapshot [256]: Creating thumbnail image (just before slice)...
+2021-06-06 14:06:45,455 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2021-06-06 14:06:45,458 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\overhang.shader]...
+2021-06-06 14:06:45,461 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\transparent_object.shader]...
+2021-06-06 14:06:45,463 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [58]: Loading shader file [C:\Program Files\Ultimaker Cura 4.9.1\resources\shaders\striped.shader]...
+2021-06-06 14:06:45,574 - INFO - [MainThread] CuraEngineBackend.CuraEngineBackend.slice [271]: Starting to slice...
+2021-06-06 14:06:45,575 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend.slice [290]: Going to slice build plate [0]!
+2021-06-06 14:06:45,782 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 1.2s
+2021-06-06 14:06:45,915 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._onStartSliceCompleted [483]: Sending slice message took 0.33988165855407715 seconds
+2021-06-06 14:06:45,950 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] [WARNING]  -s initial_extruder_nr="0" -s day="Sun" -s time="14:06:45" -s print_bed_temperature="40" -s support_roof_height="1" -s center_object="False" -s minimum_support_area="0.0" -s wireframe_nozzle_clearance="1" -s support_brim_enable="False" -s material_initial_print_temperature="200" -s machine_depth="110" -s support_type="everywhere" -s wireframe_fall_down="0.5" -s machine_steps_per_mm_e="1600" -s hole_xy_offset="0" -s infill_offset_y="0" -s support_offset="0" -s acceleration_wall_x="3000" -s support_xy_overrides_z="z_overrides_xy" -s wall_0_extruder_nr="-1" -s infill_overlap="10" -s optimize_wall_printing_order="False" -s material_bed_temperature_layer_0="45" -s machine_show_variants="False" -s wireframe_top_jump="0.6" -s machine_nozzle_size="0.4" -s raft_interface_jerk="20" -s acceleration_support="3000" -s wireframe_roof_fall_down="2" -s support_roof_offset="0.0" -s material_surface_energy="100" -s mold_roof_height="0.5" -s speed_roofing="30.0" -s wireframe_straight_before_down="20" -s speed_travel="120" -s support_join_distance="2.0" -s top_bottom_thickness="0.8" -s bridge_skin_speed_3="15.0" -s raft_surface_speed="30.0" -s retraction_retract_speed="50" -s machine_max_jerk_z="20" -s multiple_mesh_overlap="0.15" -s acceleration_prime_tower="3000" -s machine_max_jerk_e="5" -s jerk_print_layer_0="20" -s draft_shield_dist="10" -s support_enable="False" -s z_seam_relative="False" -s material_end_of_filament_purge_speed="0.5" -s support_bottom_line_width="0.35" -s support_tree_branch_distance="1" -s raft_interface_fan_speed="0" -s retraction_combing="all" -s brim_replaces_support="True" -s speed_print="60" -s prime_tower_min_volume="6" -s machine_max_jerk_xy="20" -s machine_max_feedrate_x="150" -s layer_height="0.14" -s speed_wall="30.0" -s coasting_speed="90" -s layer_start_x="0.0" -s connect_infill_polygons="False" -s smooth_spiralized_contours="True" -s line_width="0.35" -s skin_material_flow="100" -s wireframe_roof_inset="3" -s infill_before_walls="True" -s minimum_interface_area="1.0" -s platform_adhesion="0" -s coasting_min_volume="0.8" -s magic_mesh_surface_mode="normal" -s support_skip_zag_per_mm="20" -s support_extruder_nr_layer_0="0" -s outer_inset_first="False" -s travel_compensate_overlapping_walls_x_enabled="True" -s prime_tower_size="20" -s support_interface_offset="0.0" -s top_skin_preshrink="0.7" -s mold_angle="40" -s coasting_volume="0.064" -s wall_x_extruder_nr="-1" -s machine_nozzle_head_distance="3" -s adaptive_layer_height_variation_step="0.01" -s material_anti_ooze_retraction_speed="5" -s material_extrusion_cool_down_speed="0.7" -s machine_gcode_flavor="RepRap (Marlin/Sprinter)" -s infill_pattern="grid" -s support_supported_skin_fan_speed="100" -s skin_no_small_gaps_heuristic="False" -s wall_line_width_x="0.35" -s small_feature_speed_factor_0="50" -s machine_endstop_positive_direction_x="False" -s machine_use_extruder_offset_to_offset_coords="True" -s cool_fan_speed_min="100.0" -s travel_avoid_distance="0.625" -s material_print_temperature_layer_0="215" -s material_flow_layer_0="100" -s min_infill_area="0" -s machine_buildplate_type="glass" -s wall_thickness="0.8" -s brim_line_count="23" -s skin_edge_support_thickness="0" -s support_interface_skip_height="0.3" -s gantry_height="120" -s retraction_min_travel="0.7" -s jerk_layer_0="20" -s clean_between_layers="False" -s skirt_brim_material_flow="100" -s machine_height="120" -s skirt_gap="3" -s support_zag_skip_count="9" -s bridge_skin_density="100" -s wall_extruder_nr="-1" -s machine_head_with_fans_polygon="[[-20, 10], [10, 10], [10, -10], [-20, -10]]" -s cooling="0" -s speed_support_roof="40.0" -s material_print_temperature="210" -s conical_overhang_angle="50" -s support_bottom_offset="0.0" -s cool_min_layer_time_fan_speed_max="10" -s z_seam_x="0.0" -s z_seam_y="55.0" -s z_seam_position="back" -s speed="0" -s speed_infill="60" -s build_volume_temperature="0" -s switch_extruder_retraction_speed="20" -s bottom_skin_expand_distance="0.7" -s wipe_hop_speed="10" -s infill_line_width="0.35" -s support_interface_extruder_nr="0" -s jerk_enabled="False" -s wall_min_flow="0" -s machine_steps_per_mm_z="50" -s prime_tower_position_y="78.65" -s resolution="0" -s support_tree_collision_resolution="0.175" -s support_bottom_distance="0.1" -s acceleration_wall="3000" -s infill_wall_line_count="0" -s ooze_shield_enabled="False" -s machine_center_is_zero="True" -s bridge_fan_speed="100" -s retraction_hop_after_extruder_switch_height="1" -s acceleration_print_layer_0="3000" -s limit_support_retractions="True" -s ironing_enabled="False" -s acceleration_support_roof="3000" -s gradual_support_infill_steps="0" -s support_bottom_material_flow="100" -s jerk_travel_layer_0="30.0" -s filter_out_tiny_gaps="True" -s switch_extruder_retraction_amount="16" -s cross_support_density_image="" -s acceleration_wall_0="3000" -s small_feature_speed_factor="50" -s prime_blob_enable="False" -s minimum_polygon_circumference="1.0" -s support_roof_material_flow="100" -s prime_tower_flow="100" -s top_bottom_extruder_nr="-1" -s anti_overhang_mesh="False" -s jerk_topbottom="20" -s speed_support_bottom="40.0" -s remove_empty_first_layers="True" -s raft_surface_line_width="0.35" -s mold_enabled="False" -s wipe_repeat_count="5" -s bridge_fan_speed_3="0" -s support_skip_some_zags="False" -s mesh_position_z="0" -s speed_prime_tower="60" -s support_meshes_present="False" -s prime_tower_position_x="100.65" -s raft_surface_thickness="0.14" -s material_break_preparation_retracted_position="-16" -s machine_name="Unknown" -s initial_layer_line_width_factor="100.0" -s wireframe_top_delay="0" -s skin_edge_support_layers="0" -s support="0" -s material_break_speed="25" -s mold_width="5" -s machine_endstop_positive_direction_z="True" -s material_break_temperature="50" -s draft_shield_enabled="False" -s adaptive_layer_height_enabled="False" -s retraction_hop_only_when_collides="False" -s support_roof_density="100" -s material_standby_temperature="150" -s experimental="0" -s support_mesh="False" -s travel_compensate_overlapping_walls_0_enabled="True" -s initial_bottom_layers="6" -s cool_fan_full_at_height="0.21" -s machine_firmware_retract="False" -s infill_support_angle="40" -s acceleration_layer_0="3000" -s skin_overlap="5" -s top_layers="6" -s material_guid="" -s raft_margin="15" -s infill_mesh="False" -s jerk_skirt_brim="20" -s cool_lift_head="False" -s minimum_bottom_area="1.0" -s meshfix_keep_open_polygons="False" -s machine_heated_build_volume="False" -s ironing_pattern="zigzag" -s jerk_support="20" -s raft_smoothing="5" -s material_flow_dependent_temperature="False" -s machine_max_acceleration_e="10000" -s machine_start_gcode=";MPMD Basic Calibration Tutorial:
+2021-06-06 14:06:45,952 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ; https://www.thingiverse.com/thing:3892011
+2021-06-06 14:06:45,953 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ;
+2021-06-06 14:06:45,955 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ; If you want to put calibration values in your
+2021-06-06 14:06:45,956 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ; Start Gcode, put them here.
+2021-06-06 14:06:45,958 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ;
+2021-06-06 14:06:45,959 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ;If on stock firmware, at minimum, consider adding
+2021-06-06 14:06:45,961 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ;M665 R here since there is a firmware bug.
+2021-06-06 14:06:45,963 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ;
+2021-06-06 14:06:45,964 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ; Calibration part ends here
+2021-06-06 14:06:45,966 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] ;
+2021-06-06 14:06:45,967 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G90 ; switch to absolute positioning
+2021-06-06 14:06:45,969 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G92 E0 ; reset extrusion distance
+2021-06-06 14:06:45,970 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G1 E20 F200 ; purge 20mm of filament to prime nozzle.
+2021-06-06 14:06:45,972 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G92 E0 ; reset extrusion distance
+2021-06-06 14:06:45,973 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G4 S5 ; Pause for 5 seconds to allow time for removing extruded filament
+2021-06-06 14:06:45,975 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G28 ; start from home position
+2021-06-06 14:06:45,976 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G1 E-6 F900 ; retract 6mm of filament before starting the bed leveling process
+2021-06-06 14:06:45,978 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G92 E0 ; reset extrusion distance
+2021-06-06 14:06:45,979 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G4 S5 ; pause for 5 seconds to allow time for removing extruded filament
+2021-06-06 14:06:45,981 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G29 P2 Z0.28 ; Auto-level ; ADJUST Z higher or lower to set first layer height. Start with 0.02 adjustments.
+2021-06-06 14:06:45,983 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G1 Z30 ; raise Z 30mm to prepare for priming the nozzle
+2021-06-06 14:06:45,984 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G1 E5 F200 ; extrude 5mm of filament to help prime the nozzle just prior to the start of the print
+2021-06-06 14:06:45,986 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G92 E0 ; reset extrusion distance
+2021-06-06 14:06:45,988 - DEBUG - [EngineErrorThread] UM.Backend.Backend._backendLog [110]: [Backend] G4 S5 ; pause for 5 seconds to allow time for cleaning the nozzle and build plate if needed " -s prime_tower_wipe_enabled="True" -s layer_start_y="0.0" -s machine_max_feedrate_z="150" -s min_skin_width_for_expansion="5.143516556418884e-17" -s machine_acceleration="3000" -s support_wall_count="0" -s support_line_width="0.35" -s support_bottom_angles="[ ]" -s raft_base_line_width="0.8" -s wipe_retraction_prime_speed="50" -s support_material_flow="100" -s fill_outline_gaps="False" -s jerk_wall="20" -s infill_offset_x="0" -s machine_max_acceleration_x="800" -s jerk_support_bottom="20" -s conical_overhang_enabled="False" -s jerk_wall_0="20" -s support_interface_height="1" -s wipe_pause="0" -s machine_extruders_shared_nozzle_initial_retraction="0" -s conical_overhang_hole_size="0" -s infill_material_flow="100" -s acceleration_topbottom="3000" -s skin_outline_count="1" -s support_interface_line_width="0.35" -s wall_x_material_flow="100" -s bridge_wall_coast="100" -s wall_0_material_flow="100" -s wall_line_count="2" -s support_conical_angle="30" -s support_roof_line_width="0.35" -s zig_zaggify_infill="False" -s max_extrusion_before_wipe="10" -s travel="0" -s wireframe_up_half_speed="0.3" -s material_bed_temp_wait="True" -s gradual_infill_step_height="1.5" -s support_conical_min_width="5.0" -s bridge_skin_density_2="75" -s speed_equalize_flow_enabled="False" -s support_infill_rate="15" -s skirt_brim_minimal_length="250" -s material_break_preparation_temperature="210" -s support_infill_angles="[ ]" -s date="06-06-2021" -s machine_heat_zone_length="16" -s skin_overlap_mm="0.0175" -s mesh_position_y="0" -s raft_jerk="20" -s support_tree_angle="40" -s material_final_print_temperature="195" -s default_material_bed_temperature="80.0" -s acceleration_support_interface="3000" -s support_roof_extruder_nr="0" -s ironing_flow="10.0" -s support_initial_layer_line_distance="2.3333333333333335" -s wall_line_width="0.35" -s acceleration_travel="5000" -s infill_line_distance="3.5" -s raft_airgap="0.3" -s bridge_skin_material_flow="60" -s support_tower_maximum_supported_diameter="3.0" -s speed_slowdown_layers="2" -s zig_zaggify_support="False" -s machine_end_gcode="" -s raft_base_thickness="0.252" -s wireframe_bottom_delay="0" -s infill_overlap_mm="0.035" -s skirt_line_count="1" -s machine_nozzle_temp_enabled="True" -s acceleration_support_infill="3000" -s skirt_brim_speed="30.0" -s material_anti_ooze_retracted_position="-4" -s support_roof_angles="[ ]" -s layer_height_0="0.21" -s machine_nozzle_tip_outer_diameter="1" -s max_skin_angle_for_expansion="90" -s wipe_retraction_amount="4" -s wireframe_strategy="compensate" -s speed_topbottom="30.0" -s support_z_distance="0.1" -s connect_skin_polygons="False" -s alternate_extra_perimeter="False" -s bridge_wall_min_length="5" -s machine_max_acceleration_y="800" -s meshfix_maximum_deviation="0.025" -s infill_wipe_dist="0.0875" -s travel_avoid_supports="False" -s shell="0" -s roofing_material_flow="100" -s extruders_enabled_count="1" -s extruder_prime_pos_y="0" -s machine_extruder_count="1" -s support_tree_branch_diameter_angle="5" -s travel_compensate_overlapping_walls_enabled="True" -s retract_at_layer_change="True" -s acceleration_infill="3000" -s wall_0_inset="0.025000000000000022" -s speed_support_interface="40.0" -s gradual_support_infill_step_height="1" -s bridge_skin_material_flow_2="100" -s machine_endstop_positive_direction_y="False" -s wall_overhang_angle="90" -s speed_support="60" -s cross_infill_pocket_size="3.5" -s prime_tower_brim_enable="False" -s bottom_layers="6" -s meshfix="0" -s speed_wall_0="30.0" -s speed_support_infill="60" -s acceleration_ironing="3000" -s jerk_infill="20" -s wall_min_flow_retract="False" -s material_flow="100" -s retraction_extrusion_window="4" -s retraction_extra_prime_amount="0" -s bridge_fan_speed_2="0" -s raft_interface_line_width="0.7" -s meshfix_extensive_stitching="False" -s acceleration_skirt_brim="3000" -s top_thickness="0.8" -s wireframe_printspeed_up="5" -s travel_avoid_other_parts="True" -s wipe_hop_amount="1" -s small_feature_max_length="0.0" -s support_angle="50" -s machine_extruders_share_nozzle="False" -s support_interface_material_flow="100" -s machine_steps_per_mm_y="50" -s cool_fan_speed="100.0" -s machine_minimum_feedrate="0.0" -s speed_wall_x="60.0" -s magic_fuzzy_skin_outside_only="False" -s speed_layer_0="30.0" -s layer_0_z_overlap="0.15" -s infill_randomize_start_location="False" -s top_skin_expand_distance="0.7" -s skin_line_width="0.35" -s material_shrinkage_percentage="100.0" -s wipe_move_distance="20" -s wireframe_flow_flat="100" -s adhesion_type="brim" -s roofing_line_width="0.35" -s jerk_support_infill="20" -s support_use_towers="True" -s support_bottom_extruder_nr="0" -s speed_travel_layer_0="60.0" -s minimum_roof_area="1.0" -s bridge_enable_more_layers="True" -s prime_tower_line_width="0.35" -s xy_offset="0" -s extruder_prime_pos_abs="False" -s ooze_shield_angle="60" -s retraction_count_max="90" -s bottom_thickness="0.8" -s support_bottom_height="1" -s material_print_temp_wait="True" -s material_end_of_filament_purge_length="20" -s support_connect_zigzags="True" -s support_tree_branch_diameter="2" -s z_seam_corner="z_seam_corner_inner" -s roofing_angles="[ ]" -s material_crystallinity="False" -s raft_base_line_spacing="1.6" -s draft_shield_height_limitation="full" -s machine_max_acceleration_z="800" -s acceleration_print="3000" -s prime_tower_enable="False" -s slicing_tolerance="middle" -s raft_base_fan_speed="0" -s switch_extruder_retraction_speeds="20" -s machine_disallowed_areas="[]" -s wireframe_printspeed_flat="5" -s support_extruder_nr="0" -s material_bed_temp_prepend="True" -s retraction_combing_max_distance="0" -s bridge_skin_support_threshold="50" -s raft_interface_speed="22.5" -s wall_line_width_0="0.35" -s support_bottom_density="100" -s machine_feeder_wheel_diameter="10.0" -s support_infill_sparse_thickness="0.14" -s coasting_enable="True" -s ooze_shield_dist="2" -s wireframe_height="3" -s raft_acceleration="3000" -s support_interface_density="100" -s mesh_rotation_matrix="[[1,0,0], [0,1,0], [0,0,1]]" -s machine_nozzle_cool_down_speed="2.0" -s bridge_skin_material_flow_3="110" -s raft_interface_thickness="0.21000000000000002" -s support_bottom_stair_step_min_slope="10.0" -s support_roof_enable="False" -s machine_extruders_share_heater="False" -s wipe_retraction_extra_prime_amount="0" -s bridge_skin_density_3="80" -s cool_min_layer_time="5" -s sub_div_rad_add="0.35" -s retraction_enable="True" -s infill_sparse_density="20" -s support_bottom_enable="False" -s speed_ironing="20.0" -s raft_surface_jerk="20" -s speed_z_hop="10" -s material_no_load_move_factor="0.940860215" -s jerk_support_roof="20" -s wireframe_roof_drag_along="0.8" -s support_bottom_line_distance="0.35" -s small_hole_max_size="0" -s brim_width="8.0" -s infill_support_enabled="False" -s top_bottom_pattern="lines" -s material_maximum_park_duration="300" -s infill_sparse_thickness="0.14" -s support_fan_enable="False" -s support_tower_diameter="3.0" -s support_top_distance="0.1" -s magic_fuzzy_skin_enabled="False" -s wireframe_flat_delay="0.1" -s roofing_layer_count="0" -s jerk_travel="30" -s infill_extruder_nr="-1" -s print_temperature="210" -s bridge_sparse_infill_max_density="0" -s skirt_brim_line_width="0.35" -s wireframe_roof_outer_delay="0.2" -s jerk_print="20" -s command_line_settings="0" -s acceleration_support_bottom="3000" -s wall_material_flow="100" -s raft_fan_speed="0" -s support_interface_pattern="concentric" -s jerk_support_interface="20" -s retraction_hop_after_extruder_switch="True" -s travel_speed="120" -s material_flush_purge_speed="0.5" -s speed_equalize_flow_max="150" -s support_infill_extruder_nr="0" -s wall_0_wipe_dist="0.2" -s travel_retract_before_outer_wall="False" -s retraction_hop_enabled="False" -s acceleration_roofing="3000" -s wireframe_printspeed_bottom="5" -s raft_surface_fan_speed="0" -s jerk_roofing="20" -s bridge_skin_speed="15.0" -s raft_surface_acceleration="3000" -s wipe_brush_pos_x="100" -s infill_angles="[ ]" -s machine_max_feedrate_e="50" -s top_bottom_pattern_0="lines" -s adaptive_layer_height_threshold="0.2" -s jerk_prime_tower="20" -s raft_speed="30.0" -s support_roof_pattern="concentric" -s skin_angles="[ ]" -s raft_interface_line_spacing="0.8999999999999999" -s infill="0" -s ironing_line_spacing="0.1" -s material_bed_temperature="40" -s jerk_ironing="20" -s support_bottom_pattern="concentric" -s machine_nozzle_id="unknown" -s nozzle_disallowed_areas="[]" -s meshfix_maximum_resolution="0.5" -s machine_steps_per_mm_x="50" -s switch_extruder_prime_speed="20" -s brim_gap="0" -s blackmagic="0" -s default_material_print_temperature="210" -s material_break_retracted_position="-50" -s raft_surface_line_spacing="0.35" -s machine_always_write_active_tool="False" -s wireframe_drag_along="0.6" -s skin_preshrink="0.7" -s ironing_inset="0.3325" -s support_tower_roof_angle="65" -s adhesion_extruder_nr="0" -s relative_extrusion="False" -s support_xy_distance="0.7" -s cool_fan_enabled="True" -s cool_fan_speed_max="100.0" -s support_interface_angles="[ ]" -s roofing_extruder_nr="-1" -s support_line_distance="2.3333333333333335" -s speed_print_layer_0="30.0" -s machine_shape="elliptic" -s acceleration_travel_layer_0="5000.0" -s machine_width="110" -s infill_multiplier="1" -s machine_settings="0" -s raft_surface_layers="2" -s jerk_wall_x="20" -s infill_enable_travel_optimization="False" -s cool_fan_full_layer="2" -s expand_skins_expand_distance="0.7" -s material="0" -s material_adhesion_tendency="10" -s wireframe_flow_connection="100" -s material_flush_purge_length="60" -s adaptive_layer_height_variation="0.1" -s flow_rate_extrusion_offset_factor="100" -s raft_base_jerk="20" -s brim_outside_only="True" -s support_roof_line_distance="0.35" -s bridge_skin_speed_2="15.0" -s carve_multiple_volumes="False" -s fill_perimeter_gaps="everywhere" -s retraction_amount="4" -s xy_offset_layer_0="0" -s bridge_wall_speed="15.0" -s meshfix_union_all_remove_holes="False" -s magic_fuzzy_skin_point_density="1.25" -s machine_heated_bed="True" -s support_structure="normal" -s support_bottom_stair_step_width="5.0" -s acceleration_enabled="False" -s z_seam_type="sharpest_corner" -s retraction_prime_speed="50" -s alternate_carve_order="True" -s support_brim_width="8.0" -s support_interface_enable="False" -s wipe_hop_enable="False" -s machine_nozzle_heat_up_speed="2.0" -s wireframe_printspeed_down="5" -s raft_base_acceleration="3000" -s wall_overhang_speed_factor="100" -s gradual_infill_steps="0" -s roofing_pattern="lines" -s magic_fuzzy_skin_point_dist="0.8" -s wipe_retraction_enable="True" -s raft_base_speed="22.5" -s bottom_skin_preshrink="0.7" -s meshfix_maximum_travel_resolution="0.7" -s retraction_speed="50" -s material_diameter="2.85" -s wireframe_enabled="False" -s material_break_preparation_speed="2" -s wireframe_flow="100" -s magic_spiralize="False" -s support_bottom_stair_step_height="0.3" -s draft_shield_height="10" -s wipe_retraction_retract_speed="50" -s bridge_wall_material_flow="50" -s flow_rate_max_extrusion_offset="0" -s cross_infill_density_image="" -s dual="0" -s retraction_hop="1" -s magic_fuzzy_skin_thickness="0.3" -s support_conical_enabled="False" -s switch_extruder_extra_prime_amount="0" -s support_xy_distance_overhang="0.2" -s print_sequence="all_at_once" -s machine_nozzle_expansion_angle="45" -s extruder_prime_pos_z="0" -s meshfix_union_all="True" -s wipe_retraction_speed="50" -s extruder_prime_pos_x="0" -s cutting_mesh="False" -s wireframe_printspeed="5" -s infill_mesh_order="0" -s machine_min_cool_heat_time_window="50.0" -s cool_min_speed="10" -s support_pattern="zigzag" -s material_print_temp_prepend="True" -s material_flow_temp_graph="[[3.5,200],[7.0,240]]" -s machine_max_feedrate_y="150" -s support_mesh_drop_down="True" -s top_bottom="0" -s raft_interface_acceleration="3000" -s support_brim_line_count="23" -s bridge_settings_enabled="False" -s ironing_only_highest_layer="False" -s mesh_position_x="0" -s cool_fan_speed_0="0" -e0 -s support_roof_height="1" -s center_object="False" -s minimum_support_area="0.0" -s support_brim_enable="False" -s material_initial_print_temperature="235.0" -s machine_steps_per_mm_e="1600" -s hole_xy_offset="0" -s infill_offset_y="0" -s support_offset="0" -s acceleration_wall_x="3000" -s support_xy_overrides_z="z_overrides_xy" -s infill_overlap="10" -s optimize_wall_printing_order="False" -s infill_line_width="0.35" -s machine_endstop_positive_direction_x="False" -s machine_nozzle_size="0.4" -s raft_interface_jerk="20" -s acceleration_support="3000" -s support_roof_offset="0.0" -s material_surface_energy="100" -s mold_roof_height="0.5" -s speed_roofing="30.0" -s speed_travel="120" -s support_join_distance="2.0" -s top_bottom_thickness="0.8" -s bridge_skin_speed_3="15.0" -s raft_surface_speed="30.0" -s retraction_retract_speed="20.0" -s multiple_mesh_overlap="0.15" -s acceleration_prime_tower="3000" -s jerk_print_layer_0="20" -s z_seam_relative="False" -s material_end_of_filament_purge_speed="0.5" -s support_bottom_line_width="0.35" -s skin_material_flow="100" -s support_tree_branch_distance="1" -s raft_interface_fan_speed="0" -s brim_replaces_support="True" -s speed_print="60" -s prime_tower_min_volume="6" -s speed_wall="30.0" -s coasting_speed="90" -s layer_start_x="0.0" -s connect_infill_polygons="False" -s support_interface_skip_height="0.3" -s line_width="0.35" -s infill_before_walls="True" -s minimum_interface_area="1.0" -s material_extrusion_cool_down_speed="0.7" -s platform_adhesion="0" -s coasting_min_volume="0.8" -s magic_mesh_surface_mode="normal" -s support_skip_zag_per_mm="20" -s outer_inset_first="False" -s travel_compensate_overlapping_walls_x_enabled="True" -s support_interface_offset="0.0" -s top_skin_preshrink="0.7" -s coasting_volume="0.064" -s mold_angle="40" -s machine_nozzle_head_distance="3" -s material_anti_ooze_retraction_speed="5" -s infill_pattern="grid" -s support_supported_skin_fan_speed="100" -s skin_no_small_gaps_heuristic="False" -s wall_line_width_x="0.35" -s raft_margin="15" -s small_feature_speed_factor_0="50" -s cool_fan_speed_min="40.0" -s travel_avoid_distance="0.625" -s material_print_temperature_layer_0="250.0" -s material_flow_layer_0="100" -s min_infill_area="0" -s wall_thickness="0.8" -s brim_line_count="23" -s skin_edge_support_thickness="0" -s alternate_extra_perimeter="False" -s material_break_preparation_speed="2" -s retraction_min_travel="0.7" -s jerk_layer_0="20" -s clean_between_layers="False" -s skirt_brim_material_flow="100" -s machine_extruder_start_pos_y="0" -s skirt_gap="3" -s support_zag_skip_count="9" -s speed_equalize_flow_max="150" -s bridge_skin_density="100" -s cooling="0" -s speed_support_roof="40.0" -s material_print_temperature="245.0" -s conical_overhang_angle="50" -s support_infill_rate="15" -s speed_equalize_flow_enabled="False" -s initial_layer_line_width_factor="100.0" -s raft_base_line_width="0.8" -s support_bottom_angles="[ ]" -s bridge_fan_speed_2="0" -s material_flush_purge_speed="0.5" -s material_anti_ooze_retracted_position="-4" -s support_roof_angles="[ ]" -s jerk_wall="20" -s infill_offset_x="0" -s support_roof_density="100" -s material_standby_temperature="205.0" -s conical_overhang_hole_size="0" -s infill_material_flow="100" -s skirt_brim_line_width="0.35" -s speed_support_bottom="40.0" -s bridge_skin_material_flow_2="100" -s machine_endstop_positive_direction_y="False" -s gradual_support_infill_step_height="1" -s bridge_sparse_infill_max_density="0" -s support_bottom_enable="False" -s mold_enabled="False" -s slicing_tolerance="middle" -s machine_extruder_start_pos_abs="False" -s top_bottom="0" -s material_break_preparation_retracted_position="-16" -s infill_line_distance="3.5" -s resolution="0" -s acceleration_travel_layer_0="5000.0" -s skin_edge_support_layers="0" -s support="0" -s material_break_speed="25" -s mold_width="5" -s machine_endstop_positive_direction_z="True" -s material_break_temperature="50" -s retraction_hop_only_when_collides="False" -s travel_compensate_overlapping_walls_enabled="True" -s support_tree_branch_diameter_angle="5" -s experimental="0" -s travel_compensate_overlapping_walls_0_enabled="True" -s infill_support_angle="40" -s acceleration_layer_0="3000" -s skin_overlap="5" -s support_xy_distance_overhang="0.2" -s top_layers="6" -s material_guid="b4cd8cf7-2e98-44bd-9e4c-600b5d339e54" -s jerk_skirt_brim="20" -s cool_lift_head="False" -s minimum_bottom_area="1.0" -s meshfix_keep_open_polygons="False" -s ironing_pattern="zigzag" -s jerk_support="20" -s raft_smoothing="5" -s material_flow_dependent_temperature="False" -s prime_tower_wipe_enabled="True" -s layer_start_y="0.0" -s support_wall_count="0" -s support_line_width="0.35" -s raft_interface_line_spacing="0.8999999999999999" -s infill="0" -s retraction_combing_max_distance="0" -s bridge_skin_support_threshold="50" -s raft_interface_speed="22.5" -s wall_line_width_0="0.35" -s machine_extruder_end_pos_abs="False" -s wipe_retraction_prime_speed="20.0" -s support_material_flow="100" -s fill_outline_gaps="False" -s jerk_support_bottom="20" -s conical_overhang_enabled="False" -s jerk_wall_0="20" -s support_interface_height="1" -s wipe_pause="0" -s machine_extruders_shared_nozzle_initial_retraction="0" -s acceleration_topbottom="3000" -s skin_outline_count="1" -s wall_line_count="2" -s support_interface_line_width="0.35" -s wall_x_material_flow="100" -s support_conical_angle="30" -s speed_travel_layer_0="60.0" -s minimum_roof_area="1.0" -s travel_avoid_other_parts="True" -s wipe_hop_amount="1" -s support_bottom_offset="0.0" -s skirt_brim_minimal_length="250" -s bridge_skin_material_flow_3="110" -s raft_interface_thickness="0.21000000000000002" -s machine_nozzle_cool_down_speed="2.0" -s prime_tower_line_width="0.35" -s xy_offset="0" -s wall_min_flow="0" -s wipe_retraction_amount="3" -s machine_steps_per_mm_y="50" -s cool_fan_speed="40.0" -s zig_zaggify_infill="False" -s max_extrusion_before_wipe="10" -s travel="0" -s small_feature_speed_factor="50" -s raft_surface_fan_speed="0" -s raft_acceleration="3000" -s support_interface_density="100" -s mesh_rotation_matrix="[[1,0,0], [0,1,0], [0,0,1]]" -s machine_nozzle_offset_x="0" -s cross_infill_density_image="" -s machine_extruder_end_pos_y="0" -s jerk_prime_tower="20" -s raft_speed="30.0" -s support_roof_pattern="concentric" -s skin_angles="[ ]" -s machine_extruder_end_code="" -s support_interface_material_flow="100" -s speed_wall_x="60.0" -s small_feature_max_length="0.0" -s support_angle="50" -s skirt_brim_speed="30.0" -s acceleration_support_interface="3000" -s skin_overlap_mm="0.0175" -s machine_heat_zone_length="16" -s support_line_distance="2.3333333333333335" -s speed_print_layer_0="30.0" -s support_z_distance="0.1" -s connect_skin_polygons="False" -s retraction_extra_prime_amount="0" -s acceleration_support_infill="3000" -s wall_0_inset="0.025000000000000022" -s speed_support_interface="40.0" -s wall_overhang_angle="90" -s support_tree_branch_diameter="2" -s z_seam_corner="z_seam_corner_inner" -s roofing_angles="[ ]" -s material_crystallinity="False" -s raft_base_line_spacing="1.6" -s magic_fuzzy_skin_enabled="False" -s z_seam_x="0.0" -s acceleration_print="3000" -s wall_min_flow_retract="False" -s jerk_infill="20" -s meshfix_maximum_deviation="0.025" -s infill_wipe_dist="0.0875" -s travel_avoid_supports="False" -s shell="0" -s roofing_material_flow="100" -s extruder_prime_pos_y="0" -s jerk_support_roof="20" -s bridge_enable_more_layers="True" -s ironing_flow="10.0" -s support_initial_layer_line_distance="2.3333333333333335" -s raft_airgap="0.3" -s bridge_skin_material_flow="60" -s support_tower_maximum_supported_diameter="3.0" -s skirt_line_count="1" -s machine_nozzle_temp_enabled="True" -s top_bottom_pattern="lines" -s material_maximum_park_duration="300" -s infill_support_enabled="False" -s infill_sparse_thickness="0.14" -s support_fan_enable="False" -s material_flow="100" -s retraction_extrusion_window="3" -s top_thickness="0.8" -s support_bottom_stair_step_min_slope="10.0" -s support_roof_enable="False" -s magic_fuzzy_skin_outside_only="False" -s skin_line_width="0.35" -s wipe_move_distance="20" -s roofing_line_width="0.35" -s extruder_nr="0" -s acceleration_roofing="3000" -s retraction_hop_enabled="False" -s support_infill_angles="[ ]" -s material_break_preparation_temperature="245.0" -s retract_at_layer_change="True" -s acceleration_infill="3000" -s acceleration_skirt_brim="3000" -s raft_interface_line_width="0.7" -s meshfix_extensive_stitching="False" -s infill_angles="[ ]" -s top_bottom_pattern_0="lines" -s raft_surface_line_width="0.35" -s support_bottom_density="100" -s machine_feeder_wheel_diameter="10.0" -s support_infill_sparse_thickness="0.14" -s coasting_enable="True" -s acceleration_ironing="3000" -s speed_infill="60" -s bottom_layers="6" -s meshfix="0" -s speed_wall_0="30.0" -s speed_support_infill="60" -s wall_material_flow="100" -s raft_fan_speed="0" -s support_interface_pattern="concentric" -s speed_ironing="20.0" -s raft_surface_jerk="20" -s speed_z_hop="10" -s material_no_load_move_factor="0.940860215" -s bottom_thickness="0.8" -s retraction_count_max="90" -s extruder_prime_pos_abs="False" -s support_bottom_line_distance="0.35" -s support_roof_line_width="0.35" -s small_hole_max_size="0" -s brim_width="8.0" -s sub_div_rad_add="0.35" -s wipe_retraction_extra_prime_amount="0" -s bridge_skin_density_3="80" -s cool_min_layer_time="5" -s support_top_distance="0.1" -s roofing_layer_count="0" -s machine_extruder_cooling_fan_number="0" -s jerk_travel="30" -s wall_line_width="0.35" -s acceleration_travel="5000" -s max_skin_angle_for_expansion="90" -s machine_nozzle_tip_outer_diameter="1" -s switch_extruder_retraction_speeds="20" -s raft_base_fan_speed="0" -s mesh_position_y="0" -s raft_jerk="20" -s support_tree_angle="40" -s material_final_print_temperature="230.0" -s support_tower_diameter="3.0" -s gradual_infill_step_height="1.5" -s support_conical_min_width="5.0" -s bridge_skin_density_2="75" -s ironing_line_spacing="0.1" -s retraction_hop_after_extruder_switch_height="1" -s jerk_ironing="20" -s support_bottom_pattern="concentric" -s machine_nozzle_id="unknown" -s wipe_hop_speed="10" -s meshfix_maximum_resolution="0.5" -s machine_steps_per_mm_x="50" -s switch_extruder_prime_speed="20" -s acceleration_wall_0="3000" -s brim_gap="0" -s blackmagic="0" -s infill_sparse_density="20" -s retraction_enable="True" -s default_material_print_temperature="245.0" -s material_break_retracted_position="-50" -s raft_surface_line_spacing="0.35" -s skin_preshrink="0.7" -s ironing_inset="0.3325" -s support_tower_roof_angle="65" -s support_xy_distance="0.7" -s cool_fan_enabled="True" -s cool_min_layer_time_fan_speed_max="10" -s raft_surface_layers="2" -s jerk_wall_x="20" -s infill_enable_travel_optimization="False" -s cool_fan_full_layer="2" -s raft_surface_thickness="0.14" -s support_bottom_distance="0.1" -s acceleration_wall="3000" -s machine_extruder_start_code="" -s z_seam_y="55.0" -s expand_skins_expand_distance="0.7" -s material="0" -s material_adhesion_tendency="10" -s raft_base_thickness="0.252" -s zig_zaggify_support="False" -s raft_base_jerk="20" -s speed_topbottom="30.0" -s jerk_print="20" -s acceleration_support_bottom="3000" -s command_line_settings="0" -s brim_outside_only="True" -s support_roof_line_distance="0.35" -s bridge_skin_speed_2="15.0" -s retraction_hop_after_extruder_switch="True" -s jerk_support_interface="20" -s fill_perimeter_gaps="everywhere" -s retraction_amount="3" -s xy_offset_layer_0="0" -s bridge_wall_speed="15.0" -s meshfix_union_all_remove_holes="False" -s z_seam_type="sharpest_corner" -s retraction_prime_speed="20.0" -s wipe_hop_enable="False" -s machine_nozzle_heat_up_speed="2.0" -s raft_base_acceleration="3000" -s wall_overhang_speed_factor="100" -s gradual_infill_steps="0" -s roofing_pattern="lines" -s magic_fuzzy_skin_point_dist="0.8" -s wipe_retraction_enable="True" -s raft_base_speed="22.5" -s bottom_skin_preshrink="0.7" -s meshfix_maximum_travel_resolution="0.7" -s retraction_speed="20.0" -s infill_overlap_mm="0.035" -s infill_multiplier="1" -s machine_settings="0" -s support_bottom_stair_step_height="0.3" -s wipe_retraction_retract_speed="20.0" -s support_tree_collision_resolution="0.175" -s bridge_wall_material_flow="50" -s magic_fuzzy_skin_thickness="0.3" -s support_conical_enabled="False" -s switch_extruder_extra_prime_amount="0" -s machine_extruder_start_pos_x="0" -s extruder_prime_pos_z="0" -s meshfix_union_all="True" -s wipe_retraction_speed="20.0" -s extruder_prime_pos_x="0" -s machine_min_cool_heat_time_window="50.0" -s cool_min_speed="10" -s support_bottom_material_flow="100" -s support_pattern="zigzag" -s material_flow_temp_graph="[[3.5,200],[7.0,240]]" -s min_skin_width_for_expansion="5.143516556418884e-17" -s raft_interface_acceleration="3000" -s support_brim_line_count="23" -s ironing_only_highest_layer="False" -s mesh_position_x="0" -s cool_fan_speed_0="0" -s wall_0_material_flow="100" -s bridge_wall_coast="100" -s wipe_repeat_count="5" -s support_skip_some_zags="False" -s bridge_fan_speed_3="0" -s jerk_topbottom="20" -s prime_tower_flow="100" -s support_use_towers="True" -s jerk_support_infill="20" -s support_roof_material_flow="100" -s prime_blob_enable="False" -s support_interface_enable="False" -s support_brim_width="8.0" -s material_diameter="1.75" -s switch_extruder_retraction_amount="16" -s cross_support_density_image="" -s filter_out_tiny_gaps="True" -s jerk_travel_layer_0="30.0" -s cool_fan_full_at_height="0.21" -s initial_bottom_layers="6" -s machine_extruder_end_pos_x="0" -s support_interface_angles="[ ]" -s cool_fan_speed_max="40.0" -s gradual_support_infill_steps="0" -s acceleration_support_roof="3000" -s ironing_enabled="False" -s acceleration_print_layer_0="3000" -s limit_support_retractions="True" -s support_bottom_height="1" -s bridge_fan_speed="100" -s infill_wall_line_count="0" -s support_bottom_stair_step_width="5.0" -s magic_fuzzy_skin_point_density="1.25" -s jerk_roofing="20" -s wipe_brush_pos_x="100" -s bridge_skin_speed="15.0" -s raft_surface_acceleration="3000" -s wall_0_wipe_dist="0.2" -s speed_prime_tower="60" -s mesh_position_z="0" -s machine_steps_per_mm_z="50" -s retraction_hop="1" -s dual="0" -s support_connect_zigzags="True" -s material_end_of_filament_purge_length="20" -s layer_0_z_overlap="0.15" -s infill_randomize_start_location="False" -s top_skin_expand_distance="0.7" -s speed_layer_0="30.0" -s material_flush_purge_length="60" -s machine_nozzle_offset_y="0" -s switch_extruder_retraction_speed="20" -s bottom_skin_expand_distance="0.7" -s z_seam_position="back" -s speed="0" -s cross_infill_pocket_size="3.5" -s speed_support="60" -g -e0 -l "0" -s extruder_nr="0"
+2021-06-06 14:06:47,006 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._onSlicingFinishedMessage [737]: Slicing took 1.4299876689910889 seconds
+2021-06-06 14:06:47,006 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._onSlicingFinishedMessage [738]: Number of models per buildplate: {0: 1}
+2021-06-06 14:06:47,006 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._onSlicingFinishedMessage [752]: See if there is more to slice...
+2021-06-06 14:06:47,009 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [196]: Socket state changed to Closing
+2021-06-06 14:06:47,010 - DEBUG - [MainThread] UM.Backend.Backend._onSocketError [220]: Socket debug: Arcus Error (13): Closing socket because other side requested close.
+2021-06-06 14:06:47,012 - DEBUG - [MainThread] UM.Backend.Backend._logSocketState [198]: Socket state changed to Closed
+2021-06-06 14:06:47,013 - DEBUG - [MainThread] CuraEngineBackend.CuraEngineBackend._onBackendQuit [925]: Backend quit with return code 0. Resetting process and socket.
+2021-06-06 14:06:50,606 - DEBUG - [MainThread] LocalFileOutputDevice.LocalFileOutputDevice.requestWrite [135]: Writing to [C:/Users/nicho/Desktop/MPMD_Scale.gcode]...
+2021-06-06 14:06:52,245 - DEBUG - [MainThread] LocalFileOutputDevice.LocalFileOutputDevice.requestWrite [153]: Writing to Local File C:/Users/nicho/Desktop/MPMD_Scale.gcode in text mode
+2021-06-06 14:06:52,279 - INFO - [JobQueWorker [6]] GCodeWriter.GCodeWriter._serialiseSettings [200]: No custom settings found, not writing settings to g-code.
+2021-06-06 14:06:52,281 - DEBUG - [JobQueWorker [6]] UM.FileHandler.WriteFileJob.run [80]: Writing file took 0.028032779693603516 seconds
+2021-06-06 14:06:52,330 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [411]: file:///C:/Program Files/Ultimaker Cura 4.9.1/qml/UM/MessageStack.qml:75: TypeError: Cannot read property 'horizontalCenter' of null
+2021-06-06 14:06:52,715 - INFO - [MainThread] SliceInfoPlugin.SliceInfo._onRequestFinished [284]: SliceInfo sent successfully
+2021-06-06 14:06:54,324 - DEBUG - [MainThread] cura.AutoSave._onTimeout [59]: Autosaving preferences, instances and profiles
+2021-06-06 14:07:22,319 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [411]: file:///C:/Program Files/Ultimaker Cura 4.9.1/qml/UM/MessageStack.qml:75: TypeError: Cannot read property 'horizontalCenter' of null
+2021-06-06 14:09:10,332 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestTimeout [302]: Request [<UM.TaskManagement.HttpRequestManager.HttpRequestManager object at 0x000001370217FF70>] timeout.
+2021-06-06 14:09:10,336 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestError [376]: request[a4ea1f73][get][PyQt5.QtCore.QUrl('https://api.ultimaker.com/cura-packages/v1/user/packages')][timeout=10][no-data] got an QNetworkReplyError Operation canceled. The server returned: b''
+2021-06-06 14:09:10,338 - DEBUG - [MainThread] UM.TaskManagement.HttpRequestManager._onRequestFinished [415]: request[a4ea1f73][get][PyQt5.QtCore.QUrl('https://api.ultimaker.com/cura-packages/v1/user/packages')][timeout=10][no-data] was aborted, do nothing
+2021-06-06 14:09:10,338 - WARNING - [MainThread] Toolbox.src.CloudSync.CloudPackageChecker._onUserPackagesRequestFinished [74]: Requesting user packages failed, response code None while trying to connect to PyQt5.QtCore.QUrl('https://api.ultimaker.com/cura-packages/v1/user/packages')
