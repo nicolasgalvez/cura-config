@@ -1,0 +1,265 @@
+2021-06-29 14:49:14,007 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin FileLogger
+2021-06-29 14:49:14,014 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin LegacyProfileReader
+2021-06-29 14:49:14,021 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin AMFReader
+2021-06-29 14:49:14,026 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SimpleView
+2021-06-29 14:49:14,034 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SolidView
+2021-06-29 14:49:14,043 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin FirmwareUpdateChecker
+2021-06-29 14:49:14,049 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SentryLogger
+2021-06-29 14:49:14,057 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin SupportEraser
+2021-06-29 14:49:14,062 - INFO - [MainThread] UM.Logger.info [128]: Loaded plugin PrepareStage
+2021-06-29 14:49:14,065 - DEBUG - [MainThread] UM.PluginRegistry.loadPlugins [404]: Loading all plugins took 0.8436260223388672 seconds
+2021-06-29 14:49:14,068 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [163]: Looking for old configuration files to upgrade.
+2021-06-29 14:49:14,073 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./MP+Mini+Delta_settings.inst.cfg] with type [definition_changes] and source version [4000016]
+2021-06-29 14:49:14,075 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0+%232_settings.inst.cfg] with type [definition_changes] and source version [4000016]
+2021-06-29 14:49:14,077 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0+%232.extruder.cfg] with type [extruder_train] and source version [5000016]
+2021-06-29 14:49:14,081 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./MP+Mini+Delta.global.cfg] with type [machine_stack] and source version [5000016]
+2021-06-29 14:49:14,117 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_extrusion_test_for_hex_%232.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,118 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_good_extrusion_draft.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,120 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_petg_fine_%28ibm_m%29.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,122 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_petg_ironing.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,123 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_petg_fine_%28ibm_m%29.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,125 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_extrusion_test_for_hex.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,126 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_good_extrusion_draft.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,128 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_sunlu_10%25_speed.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,130 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_sunlu_99%25_gamo_tip_%233.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,131 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_petg_ironing.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,133 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_petg_profile.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,135 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_mpmd_default.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,136 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_sunlu_99%25_magazine_support_hole.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,138 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_sunlu_99%25_gamo_tip_%233.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,139 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extrusion_test_for_hex.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,141 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_pla_silk.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,142 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_sunlu_roundness.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,144 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_mpmd_minis_best.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,146 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_mpmd_default_petg_retract.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,147 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_mpmd_default+%232.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,149 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_petg_dice%21.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,150 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_mpmd_lithophanes.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,152 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_mpmd_lithophanes.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,153 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_mpmd_minis_best.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,155 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_mpmd_default_petg_retract.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,157 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extrusion_test_for_hex_%232.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,158 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_sunlu_99%25_magazine.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,160 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_sunlu_99%25_magazine.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,161 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_sunlu_10%25_speed.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,163 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_petg_dice%21.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,164 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_sunlu_99%25_gamo_tip.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,166 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_sunlu_99%25_gamo_tip.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,168 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_mpmd_default+%232.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,169 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_mpmd_default.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,171 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_mpmd_best.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,172 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_petg_profile.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,174 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_sunlu_10%25.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,175 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_sunlu_10%25.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,177 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_pla_silk.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,179 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_sunlu_roundness.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,180 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0_%232_sunlu_99%25_magazine_support_hole.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,182 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_mpmd_best.inst.cfg] with type [quality_changes] and source version [4000016]
+2021-06-29 14:49:14,184 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [332]: Failed to get file version: ../custom_material.xml.fdm_material, skip it
+2021-06-29 14:49:14,185 - WARNING - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [332]: Failed to get file version: ../generic_petg_175+%232.xml.fdm_material, skip it
+2021-06-29 14:49:14,189 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./mp_mini_delta_extruder_0+%232_user.inst.cfg] with type [user] and source version [4000016]
+2021-06-29 14:49:14,190 - INFO - [MainThread] UM.VersionUpgradeManager._getUpgradeTasks [335]: Create upgrade task for configuration file [./MP+Mini+Delta_user.inst.cfg] with type [user] and source version [4000016]
+2021-06-29 14:49:14,233 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./MP+Mini+Delta_settings.inst.cfg to version 4000017.
+2021-06-29 14:49:14,377 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0+%232_settings.inst.cfg to version 4000017.
+2021-06-29 14:49:14,396 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0+%232.extruder.cfg to version 5000017.
+2021-06-29 14:49:14,406 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./MP+Mini+Delta.global.cfg to version 5000017.
+2021-06-29 14:49:14,415 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_extrusion_test_for_hex_%232.inst.cfg to version 4000017.
+2021-06-29 14:49:14,493 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_good_extrusion_draft.inst.cfg to version 4000017.
+2021-06-29 14:49:14,518 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_petg_fine_%28ibm_m%29.inst.cfg to version 4000017.
+2021-06-29 14:49:14,643 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_petg_ironing.inst.cfg to version 4000017.
+2021-06-29 14:49:14,710 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_petg_fine_%28ibm_m%29.inst.cfg to version 4000017.
+2021-06-29 14:49:14,719 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_extrusion_test_for_hex.inst.cfg to version 4000017.
+2021-06-29 14:49:14,728 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_good_extrusion_draft.inst.cfg to version 4000017.
+2021-06-29 14:49:14,737 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_sunlu_10%25_speed.inst.cfg to version 4000017.
+2021-06-29 14:49:14,746 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_sunlu_99%25_gamo_tip_%233.inst.cfg to version 4000017.
+2021-06-29 14:49:14,755 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_petg_ironing.inst.cfg to version 4000017.
+2021-06-29 14:49:14,764 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_petg_profile.inst.cfg to version 4000017.
+2021-06-29 14:49:14,773 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_mpmd_default.inst.cfg to version 4000017.
+2021-06-29 14:49:14,782 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_sunlu_99%25_magazine_support_hole.inst.cfg to version 4000017.
+2021-06-29 14:49:14,791 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_sunlu_99%25_gamo_tip_%233.inst.cfg to version 4000017.
+2021-06-29 14:49:14,801 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extrusion_test_for_hex.inst.cfg to version 4000017.
+2021-06-29 14:49:14,809 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_pla_silk.inst.cfg to version 4000017.
+2021-06-29 14:49:14,818 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_sunlu_roundness.inst.cfg to version 4000017.
+2021-06-29 14:49:14,826 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_mpmd_minis_best.inst.cfg to version 4000017.
+2021-06-29 14:49:14,835 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_mpmd_default_petg_retract.inst.cfg to version 4000017.
+2021-06-29 14:49:14,844 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_mpmd_default+%232.inst.cfg to version 4000017.
+2021-06-29 14:49:14,853 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_petg_dice%21.inst.cfg to version 4000017.
+2021-06-29 14:49:14,861 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_mpmd_lithophanes.inst.cfg to version 4000017.
+2021-06-29 14:49:14,870 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_mpmd_lithophanes.inst.cfg to version 4000017.
+2021-06-29 14:49:14,878 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_mpmd_minis_best.inst.cfg to version 4000017.
+2021-06-29 14:49:14,886 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_mpmd_default_petg_retract.inst.cfg to version 4000017.
+2021-06-29 14:49:14,895 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extrusion_test_for_hex_%232.inst.cfg to version 4000017.
+2021-06-29 14:49:14,903 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_sunlu_99%25_magazine.inst.cfg to version 4000017.
+2021-06-29 14:49:14,912 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_sunlu_99%25_magazine.inst.cfg to version 4000017.
+2021-06-29 14:49:14,921 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_sunlu_10%25_speed.inst.cfg to version 4000017.
+2021-06-29 14:49:14,929 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_petg_dice%21.inst.cfg to version 4000017.
+2021-06-29 14:49:14,938 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_sunlu_99%25_gamo_tip.inst.cfg to version 4000017.
+2021-06-29 14:49:14,947 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_sunlu_99%25_gamo_tip.inst.cfg to version 4000017.
+2021-06-29 14:49:14,956 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_mpmd_default+%232.inst.cfg to version 4000017.
+2021-06-29 14:49:14,964 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_mpmd_default.inst.cfg to version 4000017.
+2021-06-29 14:49:14,972 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_mpmd_best.inst.cfg to version 4000017.
+2021-06-29 14:49:14,981 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_petg_profile.inst.cfg to version 4000017.
+2021-06-29 14:49:14,990 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_sunlu_10%25.inst.cfg to version 4000017.
+2021-06-29 14:49:14,999 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_sunlu_10%25.inst.cfg to version 4000017.
+2021-06-29 14:49:15,008 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_pla_silk.inst.cfg to version 4000017.
+2021-06-29 14:49:15,017 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_sunlu_roundness.inst.cfg to version 4000017.
+2021-06-29 14:49:15,026 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0_%232_sunlu_99%25_magazine_support_hole.inst.cfg to version 4000017.
+2021-06-29 14:49:15,034 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_mpmd_best.inst.cfg to version 4000017.
+2021-06-29 14:49:15,043 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./mp_mini_delta_extruder_0+%232_user.inst.cfg to version 4000017.
+2021-06-29 14:49:15,051 - INFO - [MainThread] UM.VersionUpgradeManager._upgradeFile [421]: Upgraded ./MP+Mini+Delta_user.inst.cfg to version 4000017.
+2021-06-29 14:49:15,054 - INFO - [MainThread] UM.VersionUpgradeManager.upgrade [175]: Checking and performing updates took 0.9847609996795654
+2021-06-29 14:49:15,065 - INFO - [MainThread] UM.Logger.info [128]: Completed loading preferences.
+2021-06-29 14:49:15,075 - INFO - [MainThread] UM.Logger.info [128]: Created system tray icon.
+2021-06-29 14:49:16,003 - DEBUG - [MainThread] UM.Settings.ContainerRegistry.loadAllMetadata [361]: Loading metadata into container registry took 0.9220318794250488 seconds
+2021-06-29 14:49:16,012 - DEBUG - [MainThread] cura.Scene.CuraSceneController.setActiveBuildPlate [142]: Select build plate: 0
+2021-06-29 14:49:16,014 - INFO - [MainThread] cura.CuraApplication.run [797]: Initializing machine error checker
+2021-06-29 14:49:16,220 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition mp_mini_delta failed to pickle.
+2021-06-29 14:49:16,226 - INFO - [MainThread] cura.UI.MachineActionManager.addDefaultMachineActions [74]: Default machine actions added for machine definition [mp_mini_delta]
+2021-06-29 14:49:16,390 - WARNING - [MainThread] LocalContainerProvider.LocalContainerProvider._saveCachedDefinition [295]: The definition cache for definition fdmprinter failed to pickle.
+2021-06-29 14:49:16,433 - INFO - [MainThread] cura.Settings.GlobalStack.addExtruder [194]: Extruder[mp_mini_delta_extruder_0 #2] added to [MP Mini Delta] at position [0]
+2021-06-29 14:49:16,435 - INFO - [MainThread] FirmwareUpdateChecker.FirmwareUpdateChecker.checkFirmwareVersion [79]: No machine with name MP Mini Delta in list of firmware to check.
+2021-06-29 14:49:16,621 - DEBUG - [MainThread] cura.Machines.ContainerTree.__getitem__ [120]: Adding container tree for mp_mini_delta took 0.18206119537353516 seconds.
+2021-06-29 14:49:16,628 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: ChangeAtZ
+2021-06-29 14:49:16,630 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: ColorMix
+2021-06-29 14:49:16,631 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: CreateThumbnail
+2021-06-29 14:49:16,632 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: DisplayFilenameAndLayerOnLCD
+2021-06-29 14:49:16,634 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: DisplayProgressOnLCD
+2021-06-29 14:49:16,635 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: FilamentChange
+2021-06-29 14:49:16,636 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: InsertAtLayerChange
+2021-06-29 14:49:16,639 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: PauseAtHeight
+2021-06-29 14:49:16,640 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: RetractContinue
+2021-06-29 14:49:16,641 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: SearchAndReplace
+2021-06-29 14:49:16,645 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: Stretch
+2021-06-29 14:49:16,646 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: TimeLapse
+2021-06-29 14:49:16,647 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin.loadScripts [204]: Begin loading of script: UsePreviousProbeMeasurements
+2021-06-29 14:49:16,686 - INFO - [MainThread] cura.CuraApplication.run [802]: Initializing machine manager
+2021-06-29 14:49:16,688 - INFO - [MainThread] cura.CuraApplication.run [807]: Initializing container manager
+2021-06-29 14:49:16,706 - WARNING - [MainThread] UM.OutputDevice.OutputDeviceManager.removeOutputDevice [235]: Could not find output device with id digital_factory to remove
+2021-06-29 14:49:16,720 - DEBUG - [JobQueueWorker [1]] UM.Mesh.MeshData.calculateNormalsFromVertices [556]: Calculating normals took 0.008076190948486328 seconds
+2021-06-29 14:49:16,729 - DEBUG - [MainThread] UM.Scene.Camera._preferencesChanged [255]: Changing perspective mode to perspective.
+2021-06-29 14:49:16,739 - DEBUG - [JobQueueWorker [1]] UM.Mesh.MeshData.approximateConvexHull [505]: approximateConvexHull(target_count=1024) Calculating 3D convex hull took 0.014879941940307617 seconds. 380 input vertices. 380 output vertices.
+2021-06-29 14:49:16,750 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [182]: Loading theme file: /Applications/Ultimaker Cura.app/Contents/MacOS/resources/themes/cura-dark/theme.json
+2021-06-29 14:49:16,752 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [182]: Loading theme file: /Applications/Ultimaker Cura.app/Contents/MacOS/resources/themes/cura-light/theme.json
+2021-06-29 14:49:16,917 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [287]: Loaded theme /Applications/Ultimaker Cura.app/Contents/MacOS/resources/themes/cura-light
+2021-06-29 14:49:16,920 - DEBUG - [MainThread] UM.Qt.Bindings.Theme.load [287]: Loaded theme /Applications/Ultimaker Cura.app/Contents/MacOS/resources/themes/cura-dark
+2021-06-29 14:49:16,924 - DEBUG - [MainThread] cura.Machines.MachineErrorChecker._rescheduleCheck [155]: New error check scheduled.
+2021-06-29 14:49:17,171 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [342]: Creating post processing plugin view.
+2021-06-29 14:49:17,302 - DEBUG - [MainThread] PostProcessingPlugin.PostProcessingPlugin._createView [352]: Post processing view created.
+2021-06-29 14:49:17,372 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [421]: file:///Applications/Ultimaker Cura.app/Contents/MacOS/resources/qml/PrintSetupSelector/Custom/MenuButton.qml:42:18: QML Label: Cannot anchor to an item that isn't a parent or sibling.
+2021-06-29 14:49:17,382 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2021-06-29 14:49:17,413 - WARNING - [MainThread] UM.Qt.QtApplication.__onQmlWarning [421]: file:///Applications/Ultimaker Cura.app/Contents/MacOS/resources/qml/Settings/SettingView.qml:157:5: QML SettingVisibilityPresetsMenu: Binding loop detected for property "width"
+2021-06-29 14:49:17,454 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2021-06-29 14:49:17,455 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService._parseJWT [100]: There was no auth data or access token
+2021-06-29 14:49:17,471 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2021-06-29 14:49:17,550 - DEBUG - [MainThread] UM.Controller.setActiveStage [180]: Setting active stage to PrepareStage
+2021-06-29 14:49:17,592 - DEBUG - [MainThread] cura.Machines.Models.NozzleModel._update [28]: Updating NozzleModel.
+2021-06-29 14:49:17,652 - DEBUG - [MainThread] UM.Controller.setActiveView [108]: Setting active view to SolidView
+2021-06-29 14:49:17,766 - DEBUG - [MainThread] SliceInfoPlugin.SliceInfo._createDialog [76]: Creating dialog [MoreInfoWindow.qml]
+2021-06-29 14:49:17,778 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [117]: Creating model checker view.
+2021-06-29 14:49:17,781 - DEBUG - [MainThread] ModelChecker.ModelChecker._createView [126]: Model checker view created.
+2021-06-29 14:49:17,782 - DEBUG - [MainThread] Toolbox.src.Toolbox._makeRequestByType [542]: Requesting [updates] metadata from server.
+2021-06-29 14:49:17,785 - DEBUG - [MainThread] cura.OAuth2.AuthorizationService.getAccessToken [126]: No auth data to retrieve the access_token from
+2021-06-29 14:49:17,787 - DEBUG - [MainThread] UM.Logger.debug [122]: User is not logged in for Cloud API request to https://api.ultimaker.com/cura-packages/v1/cura/v7.6.0/packages/package-updates?installed_packages=VersionUpgrade27to30:1.0.1&installed_packages=UltimakerNylon:1.4.0&installed_packages=STLWriter:1.0.1&installed_packages=Filo3DPLA:1.0.1&installed_packages=UFPWriter:1.0.1&installed_packages=VersionUpgrade32to33:1.0.1&installed_packages=GenericNylon:1.4.0&installed_packages=LocalContainerProvider:1.0.1&installed_packages=VersionUpgrade41to42:1.0.0&installed_packages=VersionUpgrade26to27:1.0.1&installed_packages=UpdateChecker:1.0.1&installed_packages=GenericHIPS:1.4.0&installed_packages=UM3NetworkPrinting:1.0.1&installed_packages=SentryLogger:1.0.0&installed_packages=CameraTool:1.0.1&installed_packages=OBJReader:1.0.1&installed_packages=3MFReader:1.0.1&installed_packages=SliceInfoPlugin:1.0.1&installed_packages=ConsoleLogger:1.0.1&installed_packages=VertexDeltaPET:1.4.0&installed_packages=TranslateTool:1.0.1&installed_packages=Toolbox:1.0.1&installed_packages=FirmwareUpdateChecker:1.0.1&installed_packages=GenericCFFPA:1.4.0&installed_packages=OctofiberPLA:1.0.1&installed_packages=ImageReader:1.0.1&installed_packages=ModelChecker:1.0.1&installed_packages=CuraProfileWriter:1.0.1&installed_packages=LocalFileOutputDevice:1.0.1&installed_packages=TrimeshReader:1.0.0&installed_packages=X3DReader:1.0.1&installed_packages=VertexDeltaTPU:1.4.0&installed_packages=IMADE3DJellyBOXPETG:1.0.1&installed_packages=GCodeReader:1.0.1&installed_packages=VersionUpgrade48to49:1.0.0&installed_packages=PrepareStage:1.0.1&installed_packages=XmlMaterialProfile:1.0.1&installed_packages=UltimakerPLA:1.4.0&installed_packages=VersionUpgrade25to26:1.0.1&installed_packages=3MFWriter:1.0.1&installed_packages=GenericBAM:1.4.0&installed_packages=VertexDeltaPLA:1.4.0&installed_packages=XRayView:1.0.1&installed_packages=FABtotumPLA:1.4.0&installed_packages=UltimakerBAM:1.4.0&installed_packages=UltimakerTPLA:1.4.0&installed_packages=UltimakerMachineActions:1.0.1&installed_packages=FileLogger:1.0.1&installed_packages=GCodeGzWriter:1.0.1&installed_packages=GenericPLA:1.4.0&installed_packages=VersionUpgrade30to31:1.0.1&installed_packages=GenericTPU:1.4.0&installed_packages=USBPrinting:1.0.2&installed_packages=VersionUpgrade460to462:1.0.0&installed_packages=PolyWoodPLA:1.0.1&installed_packages=UltimakerABS:1.4.0&installed_packages=VersionUpgrade33to34:1.0.1&installed_packages=CuraDrive:1.2.0&installed_packages=GenericGFFCPE:1.4.0&installed_packages=SolidView:1.0.1&installed_packages=SimpleView:1.0.1&installed_packages=PostProcessingPlugin:2.2.1&installed_packages=GenericCPEPlus:1.4.0&installed_packages=SupportEraser:1.0.1&installed_packages=VersionUpgrade45to46:1.0.0&installed_packages=MachineSettingsAction:1.0.1&installed_packages=VersionUpgrade21to22:1.0.1&installed_packages=MonitorStage:1.0.1&installed_packages=GenericToughPLA:1.4.0&installed_packages=PolyPlusPLA:1.0.1&installed_packages=STLReader:1.0.1&installed_packages=LegacyProfileReader:1.0.1&installed_packages=GCodeWriter:1.0.1&installed_packages=ScaleTool:1.0.1&installed_packages=GenericPVA:1.4.0&installed_packages=VersionUpgrade43to44:1.0.0&installed_packages=FABtotumTPU:1.4.0&installed_packages=UltimakerCPEP:1.4.0&installed_packages=UltimakerCPE:1.4.0&installed_packages=FiberlogyHDPLA:1.0.1&installed_packages=PolyFlexPLA:1.0.1&installed_packages=VersionUpgrade42to43:1.0.0&installed_packages=VersionUpgrade462to47:1.0.0&installed_packages=UltimakerPVA:1.4.0&installed_packages=FABtotumABS:1.4.0&installed_packages=GCodeGzReader:1.0.1&installed_packages=UFPReader:1.0.0&installed_packages=VersionUpgrade22to24:1.0.1&installed_packages=RotateTool:1.0.1&installed_packages=VersionUpgrade34to35:1.0.1&installed_packages=OBJWriter:1.0.1&installed_packages=AMFReader:1.0.0&installed_packages=PolyMaxPLA:1.0.1&installed_packages=VersionUpgrade44to45:1.0.0&installed_packages=GCodeProfileReader:1.0.1&installed_packages=PreviewStage:1.0.1&installed_packages=FABtotumNylon:1.4.0&installed_packages=GenericPP:1.4.0&installed_packages=VersionUpgrade35to40:1.0.0&installed_packages=VersionUpgrade47to48:1.0.0&installed_packages=UltimakerPC:1.4.0&installed_packages=RemovableDriveOutputDevice:1.0.1&installed_packages=SelectionTool:1.0.1&installed_packages=GenericCPE:1.4.0&installed_packages=UltimakerPP:1.4.0&installed_packages=FirmwareUpdater:1.0.1&installed_packages=CuraProfileReader:1.0.1&installed_packages=VertexDeltaABS:1.4.0&installed_packages=VersionUpgrade49to410:1.0.0&installed_packages=SimulationView:1.0.1&installed_packages=IMADE3DJellyBOXPLA:1.0.1&installed_packages=PerObjectSettingsTool:1.0.1&installed_packages=GenericABS:1.4.0&installed_packages=MirrorTool:1.0.1&installed_packages=DagomaChromatikPLA:1.0.1&installed_packages=GenericGFFPA:1.4.0&installed_packages=CuraEngineBackend:1.0.1&installed_packages=VersionUpgrade40to41:1.0.1&installed_packages=GenericPC:1.4.0&installed_packages=UltimakerTPU:1.4.0&installed_packages=GenericPETG:1.4.0&installed_packages=DigitalLibrary:1.0.0&installed_packages=GenericCFFCPE:1.4.0
+2021-06-29 14:49:17,793 - DEBUG - [MainThread] cura.CuraApplication.run [851]: Booting Cura took 5.103717803955078 seconds
+2021-06-29 14:49:17,795 - DEBUG - [JobQueueWorker [2]] cura.Machines.ContainerTree.run [174]: Started background loading of MachineNodes
+2021-06-29 14:49:18,099 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2021-06-29 14:49:18,122 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2021-06-29 14:49:18,300 - DEBUG - [JobQueueWorker [2]] cura.Machines.ContainerTree.run [185]: All MachineNode loading completed
+2021-06-29 14:49:18,780 - DEBUG - [MainThread] UM.Qt.QtRenderer._initialize [210]: Support for Vertex Array Objects: True
+2021-06-29 14:49:18,790 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [112]: Initialized OpenGL subsystems.
+2021-06-29 14:49:18,792 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [113]: OpenGL Version:  4.1 ATI-2.11.23
+2021-06-29 14:49:18,793 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [114]: OpenGL Vendor:   ATI Technologies Inc.
+2021-06-29 14:49:18,795 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [115]: OpenGL Renderer: AMD Radeon RX 580 OpenGL Engine
+2021-06-29 14:49:18,796 - DEBUG - [MainThread] UM.View.GL.OpenGL.__init__ [116]: GLSL Version:    4.10.0
+2021-06-29 14:49:18,798 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/default.shader]...
+2021-06-29 14:49:18,803 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/selection.shader]...
+2021-06-29 14:49:18,807 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/select_face.shader]...
+2021-06-29 14:49:18,810 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/default.shader]...
+2021-06-29 14:49:18,813 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/composite.shader]...
+2021-06-29 14:49:18,818 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/overhang.shader]...
+2021-06-29 14:49:18,822 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/striped.shader]...
+2021-06-29 14:49:18,827 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/transparent_object.shader]...
+2021-06-29 14:49:18,830 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/striped.shader]...
+2021-06-29 14:49:18,835 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/platform.shader]...
+2021-06-29 14:49:18,920 - DEBUG - [MainThread] UM.Mesh.MeshData.calculateNormalsFromIndexedVertices [581]: Calculating normals took 0.004206180572509766 seconds
+2021-06-29 14:49:18,932 - DEBUG - [MainThread] cura.Machines.Models.CustomQualityProfilesDropDownMenuModel._update [33]: Updating CustomQualityProfilesDropDownMenuModel.
+2021-06-29 14:49:18,946 - DEBUG - [MainThread] cura.Machines.Models.QualityProfilesDropDownMenuModel._update [62]: Updating QualityProfilesDropDownMenuModel.
+2021-06-29 14:49:19,919 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,920 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:19,922 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:19,923 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:19,925 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,928 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,929 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:19,931 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:19,932 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:19,934 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,937 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,938 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:19,940 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:19,941 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:19,943 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,946 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,947 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:19,949 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:19,951 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:19,952 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,956 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,957 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:19,959 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:19,961 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:19,962 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,965 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,967 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:19,969 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:19,970 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:19,972 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,975 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:19,976 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:19,978 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:19,980 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:19,981 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,031 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,033 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:20,034 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:20,036 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:20,038 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,041 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,043 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:20,044 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:20,046 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:20,047 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,050 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,052 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:20,053 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:20,055 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:20,057 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,060 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,062 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:20,063 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:20,065 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:20,067 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,304 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,305 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:20,307 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:20,309 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:20,310 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,842 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,844 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:20,845 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:20,847 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:20,849 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,877 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,879 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:20,881 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:20,882 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:20,884 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,924 - DEBUG - [MainThread] UM.Logger.logException [112]: Exception: An exception occurred in inherit function =15 if support_enable else 0 if support_tree_enable else 15: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,926 - DEBUG - [MainThread] UM.Logger.logException [116]: Traceback (most recent call last):
+2021-06-29 14:49:20,927 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "/Users/ultimaker/build/Cura/4.10/build/inst/lib/python3.8/site-packages/UM/Settings/SettingFunction.py", line 106, in __call__
+2021-06-29 14:49:20,929 - DEBUG - [MainThread] UM.Logger.logException [116]:   File "<UM.Settings.SettingFunction (0x6000010418a0) =15 if support_enable else 0 if support_tree_enable else 15 >", line 1, in <module>
+2021-06-29 14:49:20,930 - DEBUG - [MainThread] UM.Logger.logException [116]: NameError: name 'support_tree_enable' is not defined
+2021-06-29 14:49:20,994 - INFO - [MainThread] cura.Machines.MachineErrorChecker._setResult [214]: Error check finished, result = False, time = 4.1s
+2021-06-29 14:49:21,043 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/default.shader]...
+2021-06-29 14:49:21,046 - DEBUG - [MainThread] UM.View.GL.ShaderProgram.load [59]: Loading shader file [/Applications/Ultimaker Cura.app/Contents/MacOS/resources/shaders/grid.shader]...
+2021-06-29 14:49:28,853 - DEBUG - [MainThread] cura.AutoSave._onTimeout [64]: Autosaving preferences, instances and profiles took 0.014854192733764648 seconds
